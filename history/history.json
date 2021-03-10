@@ -1,0 +1,921 @@
+{
+  "cbc07996d03e1635c4842885be94cf11" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "743fb45547f919c6",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406389291,
+        "stop" : 1615406390324,
+        "duration" : 1033
+      }
+    } ]
+  },
+  "f5e49a7ed86dec38c90cf90cb70748ef" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6fb79d9261dd8bb2",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 200 expected [200] but found [400]",
+      "time" : {
+        "start" : 1615406396962,
+        "stop" : 1615406398080,
+        "duration" : 1118
+      }
+    } ]
+  },
+  "d08a4045ad7a5d782ea2ef483d2af7d8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a24cb957136f827",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [200]",
+      "time" : {
+        "start" : 1615406400648,
+        "stop" : 1615406401922,
+        "duration" : 1274
+      }
+    } ]
+  },
+  "d6e4fabdfef8de0558f214bc5faa1728" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9208fff1187f079",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406366172,
+        "stop" : 1615406371391,
+        "duration" : 5219
+      }
+    } ]
+  },
+  "bd44e088e221db473429f1f87bf005fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ab09028537705e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406407888,
+        "stop" : 1615406408999,
+        "duration" : 1111
+      }
+    } ]
+  },
+  "b1db789e1069aeedc4297a34f4a55733" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5189128310038c8",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [200]",
+      "time" : {
+        "start" : 1615406398082,
+        "stop" : 1615406399342,
+        "duration" : 1260
+      }
+    } ]
+  },
+  "2fa683d19675e38ad1cfc7ac859facb1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "363e37f115cf7270",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406357460,
+        "stop" : 1615406358522,
+        "duration" : 1062
+      }
+    } ]
+  },
+  "ed54b9fc58ab372ae62f8a86ebb92261" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d92cf58b6622cde",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"data\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/C:/Users/Alexandru/IdeaProjects/TestFrameworkPrysym/target/test-classes/validationschemas/acquiringProcessResponseValidation.json#\",\"pointer\":\"\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"data\"]\n    missing: [\"data\"]\n\n  Actual: {\"error\":{\"code\":\"INTERNAL_ERROR\"}}\n",
+      "time" : {
+        "start" : 1615406354444,
+        "stop" : 1615406355506,
+        "duration" : 1062
+      }
+    } ]
+  },
+  "d102746fea6ea17982c9cd9c32e658e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c660c0f4255bf979",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406381638,
+        "stop" : 1615406382762,
+        "duration" : 1124
+      }
+    } ]
+  },
+  "7b8dd2750565c9c47e2ab365733765c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f01a5408752cfb56",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\texpected [VALIDATION_FAILED] but found [PAYMENT_INSTRUMENT_NOT_FOUND]",
+      "time" : {
+        "start" : 1615406415398,
+        "stop" : 1615406416541,
+        "duration" : 1143
+      }
+    } ]
+  },
+  "ac2ae002d4d4878d359d663667911023" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c3f2027d0d453c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406405469,
+        "stop" : 1615406406751,
+        "duration" : 1282
+      }
+    } ]
+  },
+  "4dcf9931fa8f7c67c0a85f4b60c259a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27f9cadf08ef07ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406371459,
+        "stop" : 1615406372618,
+        "duration" : 1159
+      }
+    } ]
+  },
+  "4f76e55fa42fa2d7808ce7d655bb97d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc9df389a7ec9758",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406374779,
+        "stop" : 1615406379548,
+        "duration" : 4769
+      }
+    } ]
+  },
+  "f8ac7bf684ebeb5598b018f9d2772c65" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16f58fbcbe375166",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406332223,
+        "stop" : 1615406335153,
+        "duration" : 2930
+      }
+    } ]
+  },
+  "44441ee5d840bc4cba2e1afe3f82dc64" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37d06e7fe0310894",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406409001,
+        "stop" : 1615406410116,
+        "duration" : 1115
+      }
+    } ]
+  },
+  "24ebcd456aab60f780533a89f4d0f2db" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14b80ce12a5c92b2",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406353294,
+        "stop" : 1615406354432,
+        "duration" : 1138
+      }
+    } ]
+  },
+  "45e58d22ffc83a667ca53e712585f363" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f595134c6f0112c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406411254,
+        "stop" : 1615406413123,
+        "duration" : 1869
+      }
+    } ]
+  },
+  "e3432790fa85f732dc3d99ae537f8878" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c33078303f641d4c",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"amount\",\"created_at\",\"currency_code\",\"id\",\"merchant_id\",\"originaltransaction_id\",\"payment_instrument_id\",\"program_id\",\"reference\",\"status\",\"terminal_id\",\"type\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/C:/Users/Alexandru/IdeaProjects/TestFrameworkPrysym/target/test-classes/validationschemas/acquiringCaptureResponseValidation.json#\",\"pointer\":\"\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"amount\",\"created_at\",\"currency_code\",\"id\",\"merchant_id\",\"originaltransaction_id\",\"payment_instrument_id\",\"program_id\",\"reference\",\"status\",\"terminal_id\",\"type\"]\n    missing: [\"amount\",\"created_at\",\"currency_code\",\"id\",\"merchant_id\",\"originaltransaction_id\",\"payment_instrument_id\",\"program_id\",\"reference\",\"status\",\"terminal_id\",\"type\"]\n\n  Actual: {\"data\":{\"id\":\"01781db8-9bd8-01b4-49d4-3fc0326503c2\",\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"terminal_id\":null,\"currency_code\":\"USD\",\"amount\":7.00,\"type\":\"CAPTURE\",\"status\":\"APPROVED\",\"reference\":null,\"payment_instrument_id\":\"01724c19-83d7-5e31-e23a-889df5e2fd82\",\"originaltransaction_id\":\"01724c19-925b-1a9e-776c-744ba147386e\",\"auth_id\":\"OK2551\",\"fd_merchant_id\":\"RCTST1000084652\",\"bank_net_data\":\"0525MCC705700\",\"fd_terminal_id\":\"00000001\",\"created_at\":\"2020-05-25T13:50:40Z\"}}\n",
+      "time" : {
+        "start" : 1615406339131,
+        "stop" : 1615406342263,
+        "duration" : 3132
+      }
+    } ]
+  },
+  "dc9b7bd9b513f5d96f7934afbba827bf" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2225242592aae69",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406382764,
+        "stop" : 1615406383796,
+        "duration" : 1032
+      }
+    } ]
+  },
+  "ef443ee444b9845a44ec00ec92ca4532" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "910b505e6de27a4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406404349,
+        "stop" : 1615406405466,
+        "duration" : 1117
+      }
+    } ]
+  },
+  "6a1dddd345ebb26cc6fe1b2036b64621" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfdd6884c5415f57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406395694,
+        "stop" : 1615406396960,
+        "duration" : 1266
+      }
+    } ]
+  },
+  "8ab553734c5b525b94ff93dffef3144b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b09d3feb36e88672",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406401925,
+        "stop" : 1615406403073,
+        "duration" : 1148
+      }
+    } ]
+  },
+  "407a73117d139d5de5443d8a047a2e6c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "318b54510f58090a",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406394401,
+        "stop" : 1615406395691,
+        "duration" : 1290
+      }
+    } ]
+  },
+  "749299b78b62c7d38d44bb8da5d84a84" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1c3bab3a1c85f7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406406751,
+        "stop" : 1615406407885,
+        "duration" : 1134
+      }
+    } ]
+  },
+  "dfc69be67f7f0ba80832e4da01241522" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "538ffdf8605aa256",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [200]",
+      "time" : {
+        "start" : 1615406399344,
+        "stop" : 1615406400645,
+        "duration" : 1301
+      }
+    } ]
+  },
+  "9f6d26721f96da6c6f5fcba076730c3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d540e014ecf1f1c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406372621,
+        "stop" : 1615406373735,
+        "duration" : 1114
+      }
+    } ]
+  },
+  "f93fba2f07f876bdf11164013d0865c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7bd62466117203a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406410118,
+        "stop" : 1615406411252,
+        "duration" : 1134
+      }
+    } ]
+  },
+  "e5ba227720e1605adc6920160b566981" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a64951e64ebb72f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406364055,
+        "stop" : 1615406365112,
+        "duration" : 1057
+      }
+    } ]
+  },
+  "eb149f5a21bfdffe1b9a50fa3696b56d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b33a424effe38d47",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406347707,
+        "stop" : 1615406348792,
+        "duration" : 1085
+      }
+    } ]
+  },
+  "be9c83f3bc086d6a8ca964d0d9bf5287" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea72d06c472985",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406388221,
+        "stop" : 1615406389288,
+        "duration" : 1067
+      }
+    } ]
+  },
+  "78203e5c6f2ddce01eb29ac3d9452136" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9da61215656df4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406413126,
+        "stop" : 1615406414275,
+        "duration" : 1149
+      }
+    } ]
+  },
+  "596b92f942dad387b6a144b5d771505" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "561f01e5265e902a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406403075,
+        "stop" : 1615406404346,
+        "duration" : 1271
+      }
+    } ]
+  },
+  "329752e5e507077aaaaaea8dfac6a9de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "865a944873a34726",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406414278,
+        "stop" : 1615406415395,
+        "duration" : 1117
+      }
+    } ]
+  },
+  "5e9713a4da5fe36532ad5ea042947c7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4514c5135f20622",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406391367,
+        "stop" : 1615406394397,
+        "duration" : 3030
+      }
+    } ]
+  },
+  "2b98a559f47a9aa6f1d9be0de35fb829" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96aa2f9a6b36dfa4",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406390326,
+        "stop" : 1615406391364,
+        "duration" : 1038
+      }
+    } ]
+  },
+  "a309ff8ea366a7cc2b9546715e9f482c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0a1444b3c0331a9",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406355510,
+        "stop" : 1615406357457,
+        "duration" : 1947
+      }
+    } ]
+  },
+  "3624d2e4162102bab59eddb4b1867bb1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d099fd543b13eb82",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [200]",
+      "time" : {
+        "start" : 1615406343381,
+        "stop" : 1615406347704,
+        "duration" : 4323
+      }
+    } ]
+  },
+  "798d792d1f3ed8d2328c25d5d33fec4d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a470a5d2782b400",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406363003,
+        "stop" : 1615406364051,
+        "duration" : 1048
+      }
+    } ]
+  },
+  "f808ef66601e3c78347b65813600a97" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8b7640e6c16ff0d",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406379551,
+        "stop" : 1615406380589,
+        "duration" : 1038
+      }
+    } ]
+  },
+  "4268b26b513ecd07a1e57633223774a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc79feec47bee416",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406383801,
+        "stop" : 1615406388218,
+        "duration" : 4417
+      }
+    } ]
+  },
+  "ff317a8d5f436b3bb42c51bc6b015369" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de1264b890327c2a",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [200]",
+      "time" : {
+        "start" : 1615406335241,
+        "stop" : 1615406339122,
+        "duration" : 3881
+      }
+    } ]
+  },
+  "1fcf5698780a829fde68b72c09ff63da" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da1b52ed0640e487",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [200]",
+      "time" : {
+        "start" : 1615406348795,
+        "stop" : 1615406353291,
+        "duration" : 4496
+      }
+    } ]
+  },
+  "a172c5e43df1163abb7de10dcf82311a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "80a97975bfe5010f",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406380592,
+        "stop" : 1615406381636,
+        "duration" : 1044
+      }
+    } ]
+  },
+  "fb07324122e10b193ea28a384339adee" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5204fed7d9cc0072",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406373738,
+        "stop" : 1615406374776,
+        "duration" : 1038
+      }
+    } ]
+  },
+  "2e2909d584211143ca6c03b8852e597" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58e75c71fda72a12",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406365115,
+        "stop" : 1615406366169,
+        "duration" : 1054
+      }
+    } ]
+  },
+  "c5594d0ae4d8918ee8bff9929b6055e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62b7b8cdb217ae08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615406358525,
+        "stop" : 1615406362999,
+        "duration" : 4474
+      }
+    } ]
+  },
+  "b77259b636baef80878275004c37d2d1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91da7e7ecc4e5d74",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tResponse code should be 400 expected [400] but found [500]",
+      "time" : {
+        "start" : 1615406342268,
+        "stop" : 1615406343376,
+        "duration" : 1108
+      }
+    } ]
+  }
+}

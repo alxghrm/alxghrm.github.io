@@ -1,0 +1,84 @@
+{
+  "uid" : "7bd62466117203a8",
+  "name" : "withoutType",
+  "fullName" : "CreatePaymentInstrumentsTest.withoutType",
+  "historyId" : "f93fba2f07f876bdf11164013d0865c8",
+  "time" : {
+    "start" : 1615406410118,
+    "stop" : 1615406411252,
+    "duration" : 1134
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f18636464be19a68",
+      "name" : "Request",
+      "source" : "f18636464be19a68.html",
+      "type" : "text/html",
+      "size" : 1261
+    }, {
+      "uid" : "7c3ec20223eeb854",
+      "name" : "HTTP/1.1 400 ",
+      "source" : "7c3ec20223eeb854.html",
+      "type" : "text/html",
+      "size" : 1125
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "CreatePaymentInstrumentsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "CreatePaymentInstrumentsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "withoutType"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "CreatePaymentInstrumentsTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MCC13KB"
+  }, {
+    "name" : "thread",
+    "value" : "11548@DESKTOP-MCC13KB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7bd62466117203a8.json",
+  "parameterValues" : [ ]
+}

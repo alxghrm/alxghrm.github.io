@@ -1,0 +1,34 @@
+<div>POST to https://api.sandbox.prysym.com/v1/acquiring/process</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+    {
+    &quot;program_id&quot;: &quot;1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8&quot;,
+    &quot;merchant_id&quot;: &quot;016fd8c3-f677-a782-122d-2b55e30c93ce&quot;,
+    &quot;type&quot;: &quot;PURCHASING&quot;,
+    &quot;amount&quot;: 12.5,
+    &quot;currency_code&quot;: &quot;USD&quot;,
+    &quot;reference&quot;: &quot;da040abf-314c-41fd-b556-2b1b8a5c9266TEST&quot;,
+    &quot;stored_payment_instrument&quot;: null,
+    &quot;payment_instrument&quot;: {
+        &quot;holder_name&quot;: &quot;John Doe&quot;,
+        &quot;number&quot;: &quot;6011208701112222&quot;,
+        &quot;expiration_date&quot;: &quot;2021-04&quot;,
+        &quot;security_code&quot;: &quot;123&quot;,
+        &quot;billing&quot;: {
+            &quot;address&quot;: {
+                &quot;country_code&quot;: &quot;USA&quot;,
+                &quot;country_subdivision_code&quot;: &quot;USA-TN&quot;,
+                &quot;city&quot;: &quot;Chattanooga&quot;,
+                &quot;postal_code&quot;: &quot;37402&quot;,
+                &quot;line1&quot;: &quot;1234 East Main Street&quot;,
+                &quot;line2&quot;: &quot;Suite 1000&quot;
+            }
+        }
+    }
+}
+    </pre>
+    </div>
+
+

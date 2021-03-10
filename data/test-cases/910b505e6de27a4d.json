@@ -1,0 +1,84 @@
+{
+  "uid" : "910b505e6de27a4d",
+  "name" : "invalidCardNumber",
+  "fullName" : "CreatePaymentInstrumentsTest.invalidCardNumber",
+  "historyId" : "ef443ee444b9845a44ec00ec92ca4532",
+  "time" : {
+    "start" : 1615406404349,
+    "stop" : 1615406405466,
+    "duration" : 1117
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8cc49cd2b6786a40",
+      "name" : "Request",
+      "source" : "8cc49cd2b6786a40.html",
+      "type" : "text/html",
+      "size" : 1264
+    }, {
+      "uid" : "8f6e7bf9f96a833e",
+      "name" : "HTTP/1.1 400 ",
+      "source" : "8f6e7bf9f96a833e.html",
+      "type" : "text/html",
+      "size" : 1134
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "CreatePaymentInstrumentsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "CreatePaymentInstrumentsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "invalidCardNumber"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "CreatePaymentInstrumentsTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MCC13KB"
+  }, {
+    "name" : "thread",
+    "value" : "11548@DESKTOP-MCC13KB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "910b505e6de27a4d.json",
+  "parameterValues" : [ ]
+}
