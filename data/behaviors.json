@@ -1,5 +1,337 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Get Payment Instrument",
+    "children" : [ {
+      "name" : "payment_instruments/create",
+      "children" : [ {
+        "name" : "Create Payment Instrument",
+        "uid" : "69dc9b993130d84a",
+        "parentUid" : "3643e3ab7781977e47238c3e58470297",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116186628,
+          "stop" : 1620116189881,
+          "duration" : 3253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3643e3ab7781977e47238c3e58470297"
+    }, {
+      "name" : "payment_instruments/get",
+      "children" : [ {
+        "name" : "Retrieve Payment Instrument",
+        "uid" : "7adc9c500ea001cc",
+        "parentUid" : "74d56c0c3872cde3001ce2abbe5726e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116189887,
+          "stop" : 1620116192237,
+          "duration" : 2350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74d56c0c3872cde3001ce2abbe5726e0"
+    } ],
+    "uid" : "608e50b6aa007e40fa2bf252e9c74706"
+  }, {
+    "name" : "Capture Authorization",
+    "children" : [ {
+      "name" : "acquiring/process",
+      "children" : [ {
+        "name" : "Authorization Transaction",
+        "uid" : "d5e0bd8d5e6c6420",
+        "parentUid" : "009b7bfdb198a0a1f9e1b230d77870d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116192244,
+          "stop" : 1620116197661,
+          "duration" : 5417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "009b7bfdb198a0a1f9e1b230d77870d4"
+    }, {
+      "name" : "acquiring/capture",
+      "children" : [ {
+        "name" : "Capture Transaction",
+        "uid" : "2440d445ffc7e61c",
+        "parentUid" : "9c732a60c0b9e49108fccc664ad68e75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116197668,
+          "stop" : 1620116201191,
+          "duration" : 3523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Capture Transaction Wrong Type",
+        "uid" : "52aa1ca09809353f",
+        "parentUid" : "9c732a60c0b9e49108fccc664ad68e75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116201197,
+          "stop" : 1620116203460,
+          "duration" : 2263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Capture Invalid Data",
+        "uid" : "52f97669cfe7a11",
+        "parentUid" : "9c732a60c0b9e49108fccc664ad68e75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116203467,
+          "stop" : 1620116205940,
+          "duration" : 2473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c732a60c0b9e49108fccc664ad68e75"
+    } ],
+    "uid" : "a2d088d9d02b1104b39709cadc16963d"
+  }, {
+    "name" : "Refund Purchase",
+    "children" : [ {
+      "name" : "acquiring/process",
+      "children" : [ {
+        "name" : "Purchase Transaction",
+        "uid" : "cae0c6145c9217f3",
+        "parentUid" : "04062f9c1c1c7f7fc35e4bf9aff376c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116205946,
+          "stop" : 1620116211680,
+          "duration" : 5734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Purchase Transaction Expired Payment Instrument",
+        "uid" : "2d8830b3e61e301b",
+        "parentUid" : "04062f9c1c1c7f7fc35e4bf9aff376c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116211689,
+          "stop" : 1620116214031,
+          "duration" : 2342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04062f9c1c1c7f7fc35e4bf9aff376c6"
+    }, {
+      "name" : "acquiring/refund",
+      "children" : [ {
+        "name" : "Refund Transaction",
+        "uid" : "1d58dc4471daa828",
+        "parentUid" : "03fce6e3ac61a387fceb95a5f4a23f21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116214037,
+          "stop" : 1620116220705,
+          "duration" : 6668
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Refund Transaction HIgh Amount",
+        "uid" : "72f8ebddb17cfd22",
+        "parentUid" : "03fce6e3ac61a387fceb95a5f4a23f21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116220711,
+          "stop" : 1620116223059,
+          "duration" : 2348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Refund Transaction Missing Mandatory Fields",
+        "uid" : "cf3e8f14427791c3",
+        "parentUid" : "03fce6e3ac61a387fceb95a5f4a23f21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116223065,
+          "stop" : 1620116225525,
+          "duration" : 2460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03fce6e3ac61a387fceb95a5f4a23f21"
+    } ],
+    "uid" : "3a5448e523c273c6c22bae86fd2a7fbf"
+  }, {
+    "name" : "Void Authorization",
+    "children" : [ {
+      "name" : "acquiring/process",
+      "children" : [ {
+        "name" : "Authorization Transaction",
+        "uid" : "5978613aad49ac64",
+        "parentUid" : "8ceed7b6101bca34a2e99f2b423b15b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116225531,
+          "stop" : 1620116231334,
+          "duration" : 5803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Authorization Transaction Expired Payment Instrument",
+        "uid" : "68ed617553654000",
+        "parentUid" : "8ceed7b6101bca34a2e99f2b423b15b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116231341,
+          "stop" : 1620116233687,
+          "duration" : 2346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ceed7b6101bca34a2e99f2b423b15b6"
+    }, {
+      "name" : "acquiring/void",
+      "children" : [ {
+        "name" : "Void Transaction",
+        "uid" : "8da27172f0c64960",
+        "parentUid" : "e2a972231dd6cd73aa4af9b0bd1d40a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116233696,
+          "stop" : 1620116238308,
+          "duration" : 4612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Void Transaction Type Is Null",
+        "uid" : "e1b27c84dc8c364a",
+        "parentUid" : "e2a972231dd6cd73aa4af9b0bd1d40a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116238314,
+          "stop" : 1620116240570,
+          "duration" : 2256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Void Transaction Empty Mandatory Fields",
+        "uid" : "22a3d3fd181c6a3e",
+        "parentUid" : "e2a972231dd6cd73aa4af9b0bd1d40a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116240576,
+          "stop" : 1620116243047,
+          "duration" : 2471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e2a972231dd6cd73aa4af9b0bd1d40a2"
+    } ],
+    "uid" : "bb14d8efe949086cff71edc6d970fef4"
+  }, {
+    "name" : "Refund Authorization",
+    "children" : [ {
+      "name" : "acquiring/process",
+      "children" : [ {
+        "name" : "Authorization Transaction",
+        "uid" : "6f420b14be8a9233",
+        "parentUid" : "27c18669d3d48f41ea53a9ca26d726a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116243056,
+          "stop" : 1620116248666,
+          "duration" : 5610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27c18669d3d48f41ea53a9ca26d726a0"
+    }, {
+      "name" : "acquiring/refund",
+      "children" : [ {
+        "name" : "Refund Transaction",
+        "uid" : "f33331f57ce8defc",
+        "parentUid" : "4a888e09364eec7eed5468277f0ea55a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620116248673,
+          "stop" : 1620116253324,
+          "duration" : 4651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a888e09364eec7eed5468277f0ea55a"
+    } ],
+    "uid" : "031bb011fe9ad7b9d21761a985ea0c2e"
+  }, {
+    "name" : "Void Purchase",
+    "children" : [ {
+      "name" : "acquiring/process",
+      "children" : [ {
+        "name" : "Purchase Transaction",
+        "uid" : "41006b7c87865c74",
+        "parentUid" : "f4b56e4d68c0a2b4ce58a856d4250d0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620116253331,
+          "stop" : 1620116258963,
+          "duration" : 5632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4b56e4d68c0a2b4ce58a856d4250d0e"
+    }, {
+      "name" : "acquiring/void",
+      "children" : [ {
+        "name" : "Void Transaction",
+        "uid" : "d660f013c43dea18",
+        "parentUid" : "1f5617166691207e7068b02cbb0bceee",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620116258971,
+          "stop" : 1620116261314,
+          "duration" : 2343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f5617166691207e7068b02cbb0bceee"
+    } ],
+    "uid" : "5450a444e741f3ea505eb3fb32e44cc4"
+  } ]
 }

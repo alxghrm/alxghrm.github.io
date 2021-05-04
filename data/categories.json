@@ -1,5 +1,39 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Status code should be 500",
+      "children" : [ {
+        "name" : "Refund Transaction",
+        "uid" : "f33331f57ce8defc",
+        "parentUid" : "5fb87148f0361a00264aba47de205d2b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620116248673,
+          "stop" : 1620116253324,
+          "duration" : 4651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Void Transaction",
+        "uid" : "d660f013c43dea18",
+        "parentUid" : "5fb87148f0361a00264aba47de205d2b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620116258971,
+          "stop" : 1620116261314,
+          "duration" : 2343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5fb87148f0361a00264aba47de205d2b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
