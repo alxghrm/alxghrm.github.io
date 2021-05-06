@@ -1,0 +1,1 @@
+pm.variables.replaceIn('{{$randomFullName}}')

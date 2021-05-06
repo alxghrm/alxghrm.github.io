@@ -1,5 +1,5 @@
 {
-  "total" : 6,
+  "total" : 11,
   "items" : [ {
     "uid" : "031bb011fe9ad7b9d21761a985ea0c2e",
     "name" : "Refund Authorization",
@@ -45,8 +45,30 @@
       "total" : 2
     }
   }, {
+    "uid" : "96b12da2b682db982d3b4022d2a3ad59",
+    "name" : "Capture Transaction Negative Validation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "3a5448e523c273c6c22bae86fd2a7fbf",
     "name" : "Refund Purchase",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "ffc3366870610e439069360e9f2f0d3e",
+    "name" : "Refund Purchase Negative Validation",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -65,6 +87,28 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
+    }
+  }, {
+    "uid" : "6693e6e9e25caf241114b567b5d78ec2",
+    "name" : "Void Authorization Negative Validation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "1a37122c3f9dbe18796bccee38901244",
+    "name" : "Get Payment Instrument Negative Validation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }
