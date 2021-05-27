@@ -7,26 +7,26 @@
       "name" : "Status code should be 500",
       "children" : [ {
         "name" : "Refund Transaction",
-        "uid" : "f79c0ca49658b03e",
+        "uid" : "3816e3f58106ea35",
         "parentUid" : "5fb87148f0361a00264aba47de205d2b",
         "status" : "failed",
         "time" : {
-          "start" : 1620289285941,
-          "stop" : 1620289292173,
-          "duration" : 6232
+          "start" : 1622095702085,
+          "stop" : 1622095706888,
+          "duration" : 4803
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Void Transaction",
-        "uid" : "7104540487d8a04b",
+        "uid" : "34b178ef7ae46c69",
         "parentUid" : "5fb87148f0361a00264aba47de205d2b",
         "status" : "failed",
         "time" : {
-          "start" : 1620289298823,
-          "stop" : 1620289301164,
-          "duration" : 2341
+          "start" : 1622095711702,
+          "stop" : 1622095714036,
+          "duration" : 2334
         },
         "flaky" : false,
         "newFailed" : false,

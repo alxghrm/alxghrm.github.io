@@ -1,0 +1,73 @@
+{
+  "uid" : "23a9fb682975618a",
+  "name" : "Create Payment Instrument Country Code with Three Letters",
+  "historyId" : "5e1f45382782787d952bfda4475e4441",
+  "time" : {
+    "start" : 1622095625818,
+    "stop" : 1622095628379,
+    "duration" : 2561
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://44.228.71.230/v1/payment_instruments/create </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"type\": \"CARD\",\r\n  \"association_name\": \"Visa\",\r\n  \"holder_name\": \"Gwen Corkery\",\r\n  \"number\": \"4264281511112228\",\r\n  \"expiration\": {\r\n    \"month\": \"09\",\r\n    \"year\": \"2025\"\r\n  },\r\n  \"security_code\": \"123\",\r\n  \"billing\": {\r\n    \"address\": {\r\n      \"country_code\": \"USD\",\r\n      \"country_subdivision_code\": \"US-NY\",\r\n      \"city\": \"New York\",\r\n      \"postal_code\": \"33102\",\r\n      \"line1\": \"382 NE 191st St\"\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"VALIDATION_FAILED\",\"details\":[{\"field\":\"country_code\",\"code\":\"VALUE_INVALID\",\"arguments\":null,\"developer_message\":\"Only valid country codes are allowed\"}]}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://44.228.71.230/v1/payment_instruments/create </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"type\": \"CARD\",\r\n  \"association_name\": \"Visa\",\r\n  \"holder_name\": \"Gwen Corkery\",\r\n  \"number\": \"4264281511112228\",\r\n  \"expiration\": {\r\n    \"month\": \"09\",\r\n    \"year\": \"2025\"\r\n  },\r\n  \"security_code\": \"123\",\r\n  \"billing\": {\r\n    \"address\": {\r\n      \"country_code\": \"USD\",\r\n      \"country_subdivision_code\": \"US-NY\",\r\n      \"city\": \"New York\",\r\n      \"postal_code\": \"33102\",\r\n      \"line1\": \"382 NE 191st St\"\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"VALIDATION_FAILED\",\"details\":[{\"field\":\"country_code\",\"code\":\"VALUE_INVALID\",\"arguments\":null,\"developer_message\":\"Only valid country codes are allowed\"}]}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 400",
+      "time" : {
+        "start" : 1622095628371,
+        "stop" : 1622095628371,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "737e59dee34d64dc",
+      "name" : "pre_request",
+      "source" : "737e59dee34d64dc.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Create Payment Instrument Negative Validation"
+  }, {
+    "name" : "feature",
+    "value" : "Create Payment Instrument Negative Validation"
+  }, {
+    "name" : "story",
+    "value" : "payment_instruments/create"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23a9fb682975618a.json",
+  "parameterValues" : [ ]
+}
