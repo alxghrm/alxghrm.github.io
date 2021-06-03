@@ -1,0 +1,73 @@
+{
+  "uid" : "be6f3d14a27b1789",
+  "name" : "Void Transaction",
+  "historyId" : "334d26d4896377cde12c9a337eb716af",
+  "time" : {
+    "start" : 1622702750955,
+    "stop" : 1622702754367,
+    "duration" : 3412
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://44.228.71.230/v1/acquiring/void </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"type\": \"VOID\",\r\n  \"originaltransaction_id\": \"0179d09e-fd93-3c1d-e544-434c8f1511ed\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":{\"id\":\"0179d09f-0ae0-5e44-0285-fd6398f1efca\",\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"terminal_id\":null,\"currency_code\":\"USD\",\"amount\":12.50,\"type\":\"VOID\",\"status\":\"APPROVED\",\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"payment_instrument_id\":\"0179d09e-f315-7105-e47e-d961c0183d10\",\"originaltransaction_id\":\"0179d09e-fd93-3c1d-e544-434c8f1511ed\",\"auth_id\":\"OK4500\",\"fd_merchant_id\":\"RCTST1000084652\",\"bank_net_data\":null,\"fd_terminal_id\":\"00000001\",\"created_at\":\"2021-06-03T06:45:54Z\",\"status_code\":null,\"status_desc\":null,\"avs_result_code\":null,\"ccv_result_code\":null,\"response_date\":null,\"addtl_resp_data\":\"APPROVAL\",\"sttlm_date\":null,\"ath_ntwk_id\":null,\"ath_ntwk_nm\":null,\"rt_ind\":null,\"sig_ind\":null,\"error_data\":null,\"debit_trace_num\":null,\"ath_ntwk_trc_id\":null,\"settlement_txn_type\":null,\"print_data\":null,\"assoc_resp_code\":null}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://44.228.71.230/v1/acquiring/void </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"type\": \"VOID\",\r\n  \"originaltransaction_id\": \"0179d09e-fd93-3c1d-e544-434c8f1511ed\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":{\"id\":\"0179d09f-0ae0-5e44-0285-fd6398f1efca\",\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"terminal_id\":null,\"currency_code\":\"USD\",\"amount\":12.50,\"type\":\"VOID\",\"status\":\"APPROVED\",\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"payment_instrument_id\":\"0179d09e-f315-7105-e47e-d961c0183d10\",\"originaltransaction_id\":\"0179d09e-fd93-3c1d-e544-434c8f1511ed\",\"auth_id\":\"OK4500\",\"fd_merchant_id\":\"RCTST1000084652\",\"bank_net_data\":null,\"fd_terminal_id\":\"00000001\",\"created_at\":\"2021-06-03T06:45:54Z\",\"status_code\":null,\"status_desc\":null,\"avs_result_code\":null,\"ccv_result_code\":null,\"response_date\":null,\"addtl_resp_data\":\"APPROVAL\",\"sttlm_date\":null,\"ath_ntwk_id\":null,\"ath_ntwk_nm\":null,\"rt_ind\":null,\"sig_ind\":null,\"error_data\":null,\"debit_trace_num\":null,\"ath_ntwk_trc_id\":null,\"settlement_txn_type\":null,\"print_data\":null,\"assoc_resp_code\":null}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 200",
+      "time" : {
+        "start" : 1622702754361,
+        "stop" : 1622702754361,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5ce53e47cb928a40",
+      "name" : "pre_request",
+      "source" : "5ce53e47cb928a40.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Void Authorization"
+  }, {
+    "name" : "feature",
+    "value" : "Void Authorization"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/void"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be6f3d14a27b1789.json",
+  "parameterValues" : [ ]
+}

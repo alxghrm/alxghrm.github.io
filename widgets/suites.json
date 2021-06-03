@@ -40,9 +40,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 4
+      "total" : 6
     }
   }, {
     "uid" : "e9391c35bde427a6b76a174fb09345d6",
@@ -78,6 +78,17 @@
       "total" : 3
     }
   }, {
+    "uid" : "d5e698d40a47202722990a9b1b599179",
+    "name" : "Refund Purchase",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
     "uid" : "f6fbf7cc8354b654fbccfd6cd52a2ff0",
     "name" : "Get Payment Instrument",
     "statistic" : {
@@ -91,17 +102,6 @@
   }, {
     "uid" : "39aae0f6e5dc86ed445ff2ff205716fc",
     "name" : "Capture Authorization",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "d5e698d40a47202722990a9b1b599179",
-    "name" : "Refund Purchase",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -5,26 +5,26 @@
     "name" : "Get Payment Instrument",
     "children" : [ {
       "name" : "Create Payment Instrument",
-      "uid" : "957007569876f6a7",
+      "uid" : "8776e5eaea188bab",
       "parentUid" : "f6fbf7cc8354b654fbccfd6cd52a2ff0",
       "status" : "passed",
       "time" : {
-        "start" : 1622095590919,
-        "stop" : 1622095594297,
-        "duration" : 3378
+        "start" : 1622702648044,
+        "stop" : 1622702651378,
+        "duration" : 3334
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Get Payment Instrument",
-      "uid" : "9231066184af2c1d",
+      "uid" : "21983dc97bfe6acb",
       "parentUid" : "f6fbf7cc8354b654fbccfd6cd52a2ff0",
       "status" : "passed",
       "time" : {
-        "start" : 1622095594306,
-        "stop" : 1622095596694,
-        "duration" : 2388
+        "start" : 1622702651386,
+        "stop" : 1622702653769,
+        "duration" : 2383
       },
       "flaky" : false,
       "newFailed" : false,
@@ -35,25 +35,25 @@
     "name" : "Get Payment Instrument Negative Validation",
     "children" : [ {
       "name" : "Get Payment Instrument Non Existing ID",
-      "uid" : "9a3065380d7627bf",
+      "uid" : "5097c16878aa2fef",
       "parentUid" : "7176ff23e9a2ee08462947374fda0df0",
       "status" : "passed",
       "time" : {
-        "start" : 1622095596701,
-        "stop" : 1622095599093,
-        "duration" : 2392
+        "start" : 1622702653775,
+        "stop" : 1622702656133,
+        "duration" : 2358
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Get Payment Instrument String of Hundred Characters",
-      "uid" : "d81fe6fa6faadaa0",
+      "uid" : "52d2121824f192f3",
       "parentUid" : "7176ff23e9a2ee08462947374fda0df0",
       "status" : "passed",
       "time" : {
-        "start" : 1622095599104,
-        "stop" : 1622095601693,
+        "start" : 1622702656139,
+        "stop" : 1622702658728,
         "duration" : 2589
       },
       "flaky" : false,
@@ -61,13 +61,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Get Payment Instrument Empty String",
-      "uid" : "306713ad62790579",
+      "uid" : "78d42c29ec276180",
       "parentUid" : "7176ff23e9a2ee08462947374fda0df0",
       "status" : "passed",
       "time" : {
-        "start" : 1622095601702,
-        "stop" : 1622095604308,
-        "duration" : 2606
+        "start" : 1622702658734,
+        "stop" : 1622702661330,
+        "duration" : 2596
       },
       "flaky" : false,
       "newFailed" : false,
@@ -78,130 +78,130 @@
     "name" : "Create Payment Instrument Negative Validation",
     "children" : [ {
       "name" : "Create Payment Instrument Long Address",
-      "uid" : "1fe0a13fa9cb5b4a",
+      "uid" : "a400f4784575c241",
       "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
       "status" : "passed",
       "time" : {
-        "start" : 1622095604315,
-        "stop" : 1622095607577,
-        "duration" : 3262
+        "start" : 1622702661337,
+        "stop" : 1622702664500,
+        "duration" : 3163
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Create Payment Instrument Missing Type",
-      "uid" : "49bc084ed651b32d",
+      "uid" : "ca28d18bc5924466",
       "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
       "status" : "passed",
       "time" : {
-        "start" : 1622095607584,
-        "stop" : 1622095610253,
-        "duration" : 2669
+        "start" : 1622702664509,
+        "stop" : 1622702667094,
+        "duration" : 2585
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Create Payment Instrument With Invalid Type",
-      "uid" : "8a58de589385be89",
+      "uid" : "43cdb3c59c4cafbc",
       "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
       "status" : "passed",
       "time" : {
-        "start" : 1622095610283,
-        "stop" : 1622095612851,
-        "duration" : 2568
+        "start" : 1622702667102,
+        "stop" : 1622702669662,
+        "duration" : 2560
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Create Payment Instrument Postal Code Special Character",
-      "uid" : "3502c9cdd1a32685",
+      "uid" : "3f2a8270bd361f6c",
       "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
       "status" : "passed",
       "time" : {
-        "start" : 1622095612858,
-        "stop" : 1622095615458,
-        "duration" : 2600
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Create Payment Instrument Holder Name Hundred Characters",
-      "uid" : "50794225107f55d",
-      "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1622095615468,
-        "stop" : 1622095618036,
-        "duration" : 2568
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Create Payment Instrument Missing Holder Name",
-      "uid" : "6edd1479eea066ac",
-      "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1622095618045,
-        "stop" : 1622095620636,
-        "duration" : 2591
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Create Payment Instrument Country Code with Digit",
-      "uid" : "fbc9ce7479fa4e9b",
-      "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1622095620644,
-        "stop" : 1622095623230,
-        "duration" : 2586
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Create Payment Instrument Country Code with One Letter",
-      "uid" : "68c885745628c3b3",
-      "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1622095623239,
-        "stop" : 1622095625811,
-        "duration" : 2572
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Create Payment Instrument Country Code with Three Letters",
-      "uid" : "23a9fb682975618a",
-      "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1622095625818,
-        "stop" : 1622095628379,
+        "start" : 1622702669667,
+        "stop" : 1622702672228,
         "duration" : 2561
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Create Payment Instrument Card Number with Spaces",
-      "uid" : "53be48b5080017ba",
+      "name" : "Create Payment Instrument Holder Name Hundred Characters",
+      "uid" : "3597530f58885444",
       "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
       "status" : "passed",
       "time" : {
-        "start" : 1622095628386,
-        "stop" : 1622095630935,
-        "duration" : 2549
+        "start" : 1622702672234,
+        "stop" : 1622702674801,
+        "duration" : 2567
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create Payment Instrument Missing Holder Name",
+      "uid" : "c7746cd8a3224122",
+      "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622702674807,
+        "stop" : 1622702677363,
+        "duration" : 2556
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create Payment Instrument Country Code with Digit",
+      "uid" : "a67b1175b634ea2d",
+      "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622702677369,
+        "stop" : 1622702679924,
+        "duration" : 2555
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create Payment Instrument Country Code with One Letter",
+      "uid" : "61f27210d55277df",
+      "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622702679930,
+        "stop" : 1622702682485,
+        "duration" : 2555
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create Payment Instrument Country Code with Three Letters",
+      "uid" : "a83b76ff404d3ba3",
+      "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622702682490,
+        "stop" : 1622702685055,
+        "duration" : 2565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create Payment Instrument Card Number with Spaces",
+      "uid" : "fc15987a75a89d68",
+      "parentUid" : "d4e14d46241aadd7d1410d783a6fe2e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622702685061,
+        "stop" : 1622702687618,
+        "duration" : 2557
       },
       "flaky" : false,
       "newFailed" : false,
@@ -212,26 +212,26 @@
     "name" : "Capture Authorization",
     "children" : [ {
       "name" : "Authorization Transaction",
-      "uid" : "20ee9124d9a57191",
+      "uid" : "850fc61dba0653ac",
       "parentUid" : "39aae0f6e5dc86ed445ff2ff205716fc",
       "status" : "passed",
       "time" : {
-        "start" : 1622095630943,
-        "stop" : 1622095636864,
-        "duration" : 5921
+        "start" : 1622702687624,
+        "stop" : 1622702693395,
+        "duration" : 5771
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Capture Transaction",
-      "uid" : "1139cd933970ed2b",
+      "uid" : "d779f115e30607d0",
       "parentUid" : "39aae0f6e5dc86ed445ff2ff205716fc",
       "status" : "passed",
       "time" : {
-        "start" : 1622095636871,
-        "stop" : 1622095640175,
-        "duration" : 3304
+        "start" : 1622702693402,
+        "stop" : 1622702696645,
+        "duration" : 3243
       },
       "flaky" : false,
       "newFailed" : false,
@@ -242,39 +242,39 @@
     "name" : "Capture Transaction Negative Validation",
     "children" : [ {
       "name" : "Authorization Transaction",
-      "uid" : "305054faf2addd47",
+      "uid" : "499877db4fc005d6",
       "parentUid" : "3998bbc186dd4f3143009135801ff5d0",
       "status" : "passed",
       "time" : {
-        "start" : 1622095640182,
-        "stop" : 1622095644966,
-        "duration" : 4784
+        "start" : 1622702696653,
+        "stop" : 1622702701884,
+        "duration" : 5231
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Capture Transaction Wrong Type",
-      "uid" : "6c507de1873738ed",
+      "uid" : "5075cfc4db0a273c",
       "parentUid" : "3998bbc186dd4f3143009135801ff5d0",
       "status" : "passed",
       "time" : {
-        "start" : 1622095644973,
-        "stop" : 1622095647232,
-        "duration" : 2259
+        "start" : 1622702701890,
+        "stop" : 1622702704167,
+        "duration" : 2277
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Capture Invalid Data",
-      "uid" : "3f323afbe770dd78",
+      "uid" : "4d39854a43c637f",
       "parentUid" : "3998bbc186dd4f3143009135801ff5d0",
       "status" : "passed",
       "time" : {
-        "start" : 1622095647239,
-        "stop" : 1622095649709,
-        "duration" : 2470
+        "start" : 1622702704173,
+        "stop" : 1622702706654,
+        "duration" : 2481
       },
       "flaky" : false,
       "newFailed" : false,
@@ -285,26 +285,39 @@
     "name" : "Refund Purchase",
     "children" : [ {
       "name" : "Purchase Transaction",
-      "uid" : "8fc75a21da775df1",
+      "uid" : "962b8fd863eaf5e9",
       "parentUid" : "d5e698d40a47202722990a9b1b599179",
       "status" : "passed",
       "time" : {
-        "start" : 1622095649715,
-        "stop" : 1622095655078,
-        "duration" : 5363
+        "start" : 1622702706660,
+        "stop" : 1622702713902,
+        "duration" : 7242
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Purchase Transaction with Stored Payment Instrument",
+      "uid" : "9c4aa2a0a2445a5e",
+      "parentUid" : "d5e698d40a47202722990a9b1b599179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622702713908,
+        "stop" : 1622702719562,
+        "duration" : 5654
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Refund Transaction",
-      "uid" : "fa8ff5518a362713",
+      "uid" : "552b38988cc0cd38",
       "parentUid" : "d5e698d40a47202722990a9b1b599179",
       "status" : "passed",
       "time" : {
-        "start" : 1622095655085,
-        "stop" : 1622095659770,
-        "duration" : 4685
+        "start" : 1622702719568,
+        "stop" : 1622702724075,
+        "duration" : 4507
       },
       "flaky" : false,
       "newFailed" : false,
@@ -315,52 +328,78 @@
     "name" : "Refund Purchase Negative Validation",
     "children" : [ {
       "name" : "Purchase Transaction",
-      "uid" : "f0d54726446ad56f",
+      "uid" : "305a070554042036",
       "parentUid" : "3186294c83e6bc0b320bee153a015dac",
       "status" : "passed",
       "time" : {
-        "start" : 1622095659777,
-        "stop" : 1622095664610,
-        "duration" : 4833
+        "start" : 1622702724083,
+        "stop" : 1622702728866,
+        "duration" : 4783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Purchase Transaction Null Payment Instrument",
+      "uid" : "c8a016a354757e84",
+      "parentUid" : "3186294c83e6bc0b320bee153a015dac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622702728873,
+        "stop" : 1622702735149,
+        "duration" : 6276
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Purchase Transaction Missing Security Code",
+      "uid" : "e03ba796a8894049",
+      "parentUid" : "3186294c83e6bc0b320bee153a015dac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622702735155,
+        "stop" : 1622702737420,
+        "duration" : 2265
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Purchase Transaction Expired Payment Instrument",
-      "uid" : "8f9b127750dedce5",
+      "uid" : "d7e61ee6ea51e147",
       "parentUid" : "3186294c83e6bc0b320bee153a015dac",
       "status" : "passed",
       "time" : {
-        "start" : 1622095664616,
-        "stop" : 1622095666953,
-        "duration" : 2337
+        "start" : 1622702737426,
+        "stop" : 1622702740008,
+        "duration" : 2582
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Refund Transaction HIgh Amount",
-      "uid" : "f86a738d215ee5c5",
+      "uid" : "91993f839e854dad",
       "parentUid" : "3186294c83e6bc0b320bee153a015dac",
       "status" : "passed",
       "time" : {
-        "start" : 1622095666961,
-        "stop" : 1622095669531,
-        "duration" : 2570
+        "start" : 1622702740013,
+        "stop" : 1622702742572,
+        "duration" : 2559
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Refund Transaction Missing Mandatory Fields",
-      "uid" : "311f3598e229c88c",
+      "uid" : "c2a703e0c4f7c8c9",
       "parentUid" : "3186294c83e6bc0b320bee153a015dac",
       "status" : "passed",
       "time" : {
-        "start" : 1622095669538,
-        "stop" : 1622095671996,
-        "duration" : 2458
+        "start" : 1622702742578,
+        "stop" : 1622702745088,
+        "duration" : 2510
       },
       "flaky" : false,
       "newFailed" : false,
@@ -371,26 +410,26 @@
     "name" : "Void Authorization",
     "children" : [ {
       "name" : "Authorization Transaction",
-      "uid" : "4df67dfc88140bd8",
+      "uid" : "ca8b48ca3d96ec23",
       "parentUid" : "75aa2d97da6f0377a088b028b8245c11",
       "status" : "passed",
       "time" : {
-        "start" : 1622095672002,
-        "stop" : 1622095678240,
-        "duration" : 6238
+        "start" : 1622702745095,
+        "stop" : 1622702750949,
+        "duration" : 5854
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Void Transaction",
-      "uid" : "5e097ffb465e5687",
+      "uid" : "be6f3d14a27b1789",
       "parentUid" : "75aa2d97da6f0377a088b028b8245c11",
       "status" : "passed",
       "time" : {
-        "start" : 1622095678247,
-        "stop" : 1622095684007,
-        "duration" : 5760
+        "start" : 1622702750955,
+        "stop" : 1622702754367,
+        "duration" : 3412
       },
       "flaky" : false,
       "newFailed" : false,
@@ -401,52 +440,52 @@
     "name" : "Void Authorization Negative Validation",
     "children" : [ {
       "name" : "Authorization Transaction Expired Payment Instrument",
-      "uid" : "a55fa72975e9142",
+      "uid" : "f0250dec48175ca6",
       "parentUid" : "e9391c35bde427a6b76a174fb09345d6",
       "status" : "passed",
       "time" : {
-        "start" : 1622095684014,
-        "stop" : 1622095686349,
-        "duration" : 2335
+        "start" : 1622702754373,
+        "stop" : 1622702756725,
+        "duration" : 2352
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Authorization Transaction",
-      "uid" : "fa8ddf3e6b54136b",
+      "uid" : "e3cc38e0dd62d9c2",
       "parentUid" : "e9391c35bde427a6b76a174fb09345d6",
       "status" : "passed",
       "time" : {
-        "start" : 1622095686357,
-        "stop" : 1622095691834,
-        "duration" : 5477
+        "start" : 1622702756732,
+        "stop" : 1622702762044,
+        "duration" : 5312
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Void Transaction Type Is Null",
-      "uid" : "827a819b8678e876",
+      "uid" : "c7ebb0d812839dff",
       "parentUid" : "e9391c35bde427a6b76a174fb09345d6",
       "status" : "passed",
       "time" : {
-        "start" : 1622095691840,
-        "stop" : 1622095694097,
-        "duration" : 2257
+        "start" : 1622702762050,
+        "stop" : 1622702764304,
+        "duration" : 2254
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Void Transaction Empty Mandatory Fields",
-      "uid" : "e5fadb14fb96e4d4",
+      "uid" : "c40871086274e4d1",
       "parentUid" : "e9391c35bde427a6b76a174fb09345d6",
       "status" : "passed",
       "time" : {
-        "start" : 1622095694105,
-        "stop" : 1622095696563,
-        "duration" : 2458
+        "start" : 1622702764310,
+        "stop" : 1622702766786,
+        "duration" : 2476
       },
       "flaky" : false,
       "newFailed" : false,
@@ -457,26 +496,26 @@
     "name" : "Refund Authorization",
     "children" : [ {
       "name" : "Authorization Transaction",
-      "uid" : "f6126002c45ca7ae",
+      "uid" : "a612ccb975540eb7",
       "parentUid" : "d792a114b27ad1a35598835d09657265",
       "status" : "passed",
       "time" : {
-        "start" : 1622095696570,
-        "stop" : 1622095702078,
-        "duration" : 5508
+        "start" : 1622702766792,
+        "stop" : 1622702772275,
+        "duration" : 5483
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Refund Transaction",
-      "uid" : "3816e3f58106ea35",
+      "uid" : "f25f4e2dc7249376",
       "parentUid" : "d792a114b27ad1a35598835d09657265",
       "status" : "failed",
       "time" : {
-        "start" : 1622095702085,
-        "stop" : 1622095706888,
-        "duration" : 4803
+        "start" : 1622702772280,
+        "stop" : 1622702776726,
+        "duration" : 4446
       },
       "flaky" : false,
       "newFailed" : false,
@@ -487,26 +526,26 @@
     "name" : "Void Purchase",
     "children" : [ {
       "name" : "Purchase Transaction",
-      "uid" : "aa3508f330866d16",
+      "uid" : "ec97752eea1b03f6",
       "parentUid" : "b935c4489347ac152e80e8de53478a11",
       "status" : "passed",
       "time" : {
-        "start" : 1622095706894,
-        "stop" : 1622095711695,
-        "duration" : 4801
+        "start" : 1622702776731,
+        "stop" : 1622702781543,
+        "duration" : 4812
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Void Transaction",
-      "uid" : "34b178ef7ae46c69",
+      "uid" : "344155c89cb7330f",
       "parentUid" : "b935c4489347ac152e80e8de53478a11",
       "status" : "failed",
       "time" : {
-        "start" : 1622095711702,
-        "stop" : 1622095714036,
-        "duration" : 2334
+        "start" : 1622702781549,
+        "stop" : 1622702783884,
+        "duration" : 2335
       },
       "flaky" : false,
       "newFailed" : false,
