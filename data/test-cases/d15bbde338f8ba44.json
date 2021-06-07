@@ -1,0 +1,79 @@
+{
+  "uid" : "d15bbde338f8ba44",
+  "name" : "Authorization Transaction Invalid Amount",
+  "historyId" : "2d836c175fd5b3b00b118faa11c448ca",
+  "time" : {
+    "start" : 1623046968049,
+    "stop" : 1623046970311,
+    "duration" : 2262
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://44.228.71.230/v1/acquiring/process </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"merchant_id\": \"016fd8c3-f677-a782-122d-2b55e30c93ce\",\r\n  \"type\": \"AUTHORIZATION\",\r\n  \"amount\": .5,\r\n  \"currency_code\": \"USD\",\r\n  \"reference\": \"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\r\n  \"stored_payment_instrument\": null,\r\n  \"payment_instrument\": {\r\n    \"holder_name\": \"Frederick Jast\",\r\n    \"number\": \"6011208701112222\",\r\n    \"expiration_date\": \"2022-04\",\r\n    \"security_code\": \"123\",\r\n    \"billing\": {\r\n      \"address\": {\r\n        \"country_code\": \"USA\",\r\n        \"country_subdivision_code\": \"USA-TN\",\r\n        \"city\": \"Chattanooga\",\r\n        \"postal_code\": \"37402\",\r\n        \"line1\": \"1234 East Main Street\",\r\n        \"line2\": \"Suite 1000\"\r\n      }\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 500 - Internal Server Error </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":null,\"errors\":null}} </b> </pre> </p>",
+  "status" : "failed",
+  "statusMessage" : "Status code should be 400",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://44.228.71.230/v1/acquiring/process </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"merchant_id\": \"016fd8c3-f677-a782-122d-2b55e30c93ce\",\r\n  \"type\": \"AUTHORIZATION\",\r\n  \"amount\": .5,\r\n  \"currency_code\": \"USD\",\r\n  \"reference\": \"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\r\n  \"stored_payment_instrument\": null,\r\n  \"payment_instrument\": {\r\n    \"holder_name\": \"Frederick Jast\",\r\n    \"number\": \"6011208701112222\",\r\n    \"expiration_date\": \"2022-04\",\r\n    \"security_code\": \"123\",\r\n    \"billing\": {\r\n      \"address\": {\r\n        \"country_code\": \"USA\",\r\n        \"country_subdivision_code\": \"USA-TN\",\r\n        \"city\": \"Chattanooga\",\r\n        \"postal_code\": \"37402\",\r\n        \"line1\": \"1234 East Main Street\",\r\n        \"line2\": \"Suite 1000\"\r\n      }\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 500 - Internal Server Error </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":null,\"errors\":null}} </b> </pre> </p>",
+    "status" : "failed",
+    "statusMessage" : "Status code should be 400",
+    "steps" : [ {
+      "name" : "Status code should be 400",
+      "time" : {
+        "start" : 1623046970304,
+        "stop" : 1623046970304,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5ce60ebac02e8094",
+      "name" : "pre_request",
+      "source" : "5ce60ebac02e8094.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Capture Transaction Negative Validation"
+  }, {
+    "name" : "feature",
+    "value" : "Capture Transaction Negative Validation"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d15bbde338f8ba44.json",
+  "parameterValues" : [ ]
+}

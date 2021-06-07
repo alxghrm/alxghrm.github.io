@@ -1,0 +1,73 @@
+{
+  "uid" : "6c0b3450719d3827",
+  "name" : "Void Transaction Type Is Null",
+  "historyId" : "13fa62023f1f16bf7dfbf5edb4e890d5",
+  "time" : {
+    "start" : 1623047027093,
+    "stop" : 1623047029357,
+    "duration" : 2264
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://44.228.71.230/v1/acquiring/void </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"type\": null,\r\n  \"originaltransaction_id\": \"0179e524-39a6-c322-06f7-994f9efd159d\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 500 - Internal Server Error </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":null,\"errors\":null}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://44.228.71.230/v1/acquiring/void </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"type\": null,\r\n  \"originaltransaction_id\": \"0179e524-39a6-c322-06f7-994f9efd159d\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 500 - Internal Server Error </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":null,\"errors\":null}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 500",
+      "time" : {
+        "start" : 1623047029350,
+        "stop" : 1623047029350,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6ffa01134a8ebdf0",
+      "name" : "pre_request",
+      "source" : "6ffa01134a8ebdf0.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Void Authorization Negative Validation"
+  }, {
+    "name" : "feature",
+    "value" : "Void Authorization Negative Validation"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/void"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c0b3450719d3827.json",
+  "parameterValues" : [ ]
+}

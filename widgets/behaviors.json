@@ -1,8 +1,8 @@
 {
   "total" : 11,
   "items" : [ {
-    "uid" : "031bb011fe9ad7b9d21761a985ea0c2e",
-    "name" : "Refund Authorization",
+    "uid" : "96b12da2b682db982d3b4022d2a3ad59",
+    "name" : "Capture Transaction Negative Validation",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "5450a444e741f3ea505eb3fb32e44cc4",
-    "name" : "Void Purchase",
+    "uid" : "031bb011fe9ad7b9d21761a985ea0c2e",
+    "name" : "Refund Authorization",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -36,17 +36,6 @@
   }, {
     "uid" : "a2d088d9d02b1104b39709cadc16963d",
     "name" : "Capture Authorization",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "96b12da2b682db982d3b4022d2a3ad59",
-    "name" : "Capture Transaction Negative Validation",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -91,6 +80,17 @@
   }, {
     "uid" : "6693e6e9e25caf241114b567b5d78ec2",
     "name" : "Void Authorization Negative Validation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "5450a444e741f3ea505eb3fb32e44cc4",
+    "name" : "Void Purchase",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

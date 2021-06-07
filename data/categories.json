@@ -4,35 +4,35 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Status code should be 500",
+      "name" : "Status code should be 400",
       "children" : [ {
-        "name" : "Refund Transaction",
-        "uid" : "f25f4e2dc7249376",
-        "parentUid" : "5fb87148f0361a00264aba47de205d2b",
+        "name" : "Authorization Transaction Invalid Amount",
+        "uid" : "d15bbde338f8ba44",
+        "parentUid" : "4e58d5653d15d65cde2838377da8696e",
         "status" : "failed",
         "time" : {
-          "start" : 1622702772280,
-          "stop" : 1622702776726,
-          "duration" : 4446
+          "start" : 1623046968049,
+          "stop" : 1623046970311,
+          "duration" : 2262
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Void Transaction",
-        "uid" : "344155c89cb7330f",
-        "parentUid" : "5fb87148f0361a00264aba47de205d2b",
+        "name" : "Refund Transaction",
+        "uid" : "aa0639535346033a",
+        "parentUid" : "4e58d5653d15d65cde2838377da8696e",
         "status" : "failed",
         "time" : {
-          "start" : 1622702781549,
-          "stop" : 1622702783884,
-          "duration" : 2335
+          "start" : 1623047037563,
+          "stop" : 1623047042431,
+          "duration" : 4868
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5fb87148f0361a00264aba47de205d2b"
+      "uid" : "4e58d5653d15d65cde2838377da8696e"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

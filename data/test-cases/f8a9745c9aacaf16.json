@@ -1,0 +1,73 @@
+{
+  "uid" : "f8a9745c9aacaf16",
+  "name" : "Capture Invalid Data",
+  "historyId" : "f2c307818804208a20cfe9866b71b3e0",
+  "time" : {
+    "start" : 1623046972809,
+    "stop" : 1623046975308,
+    "duration" : 2499
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://44.228.71.230/v1/acquiring/capture </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"string\",\r\n  \"type\": \"CAPTURE\",\r\n  \"originaltransaction_id\": \"string\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 500 - Internal Server Error </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":null,\"errors\":null}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://44.228.71.230/v1/acquiring/capture </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"string\",\r\n  \"type\": \"CAPTURE\",\r\n  \"originaltransaction_id\": \"string\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 500 - Internal Server Error </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":null,\"errors\":null}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 500",
+      "time" : {
+        "start" : 1623046975301,
+        "stop" : 1623046975301,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b971998c7aadfa23",
+      "name" : "pre_request",
+      "source" : "b971998c7aadfa23.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Capture Transaction Negative Validation"
+  }, {
+    "name" : "feature",
+    "value" : "Capture Transaction Negative Validation"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/capture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8a9745c9aacaf16.json",
+  "parameterValues" : [ ]
+}
