@@ -1,8 +1,8 @@
 {
-  "total" : 11,
+  "total" : 13,
   "items" : [ {
-    "uid" : "96b12da2b682db982d3b4022d2a3ad59",
-    "name" : "Capture Transaction Negative Validation",
+    "uid" : "031bb011fe9ad7b9d21761a985ea0c2e",
+    "name" : "Refund Authorization",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "031bb011fe9ad7b9d21761a985ea0c2e",
-    "name" : "Refund Authorization",
+    "uid" : "8053aaee9444a2fcffcf894dfa03da1d",
+    "name" : "Last Call",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -45,8 +45,30 @@
       "total" : 2
     }
   }, {
+    "uid" : "96b12da2b682db982d3b4022d2a3ad59",
+    "name" : "Capture Transaction Negative Validation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "3a5448e523c273c6c22bae86fd2a7fbf",
     "name" : "Refund Purchase",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "c8ad7baa54ed7738e122f04c445e07d5",
+    "name" : "Partial Refund Purchase",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -87,28 +109,6 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
-    }
-  }, {
-    "uid" : "5450a444e741f3ea505eb3fb32e44cc4",
-    "name" : "Void Purchase",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "1a37122c3f9dbe18796bccee38901244",
-    "name" : "Get Payment Instrument Negative Validation",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
     }
   } ]
 }

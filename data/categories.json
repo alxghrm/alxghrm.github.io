@@ -6,33 +6,37 @@
     "children" : [ {
       "name" : "Status code should be 400",
       "children" : [ {
-        "name" : "Authorization Transaction Invalid Amount",
-        "uid" : "d15bbde338f8ba44",
-        "parentUid" : "4e58d5653d15d65cde2838377da8696e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1623046968049,
-          "stop" : 1623046970311,
-          "duration" : 2262
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Refund Transaction",
-        "uid" : "aa0639535346033a",
+        "uid" : "28c5c296ec021ff1",
         "parentUid" : "4e58d5653d15d65cde2838377da8696e",
         "status" : "failed",
         "time" : {
-          "start" : 1623047037563,
-          "stop" : 1623047042431,
-          "duration" : 4868
+          "start" : 1623403750322,
+          "stop" : 1623403755282,
+          "duration" : 4960
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "4e58d5653d15d65cde2838377da8696e"
+    }, {
+      "name" : "Id should match original transaction id",
+      "children" : [ {
+        "name" : "Last Call",
+        "uid" : "3330aaae3e77b110",
+        "parentUid" : "320c17165107bfee5371a4a1ec373251",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623403767999,
+          "stop" : 1623403770378,
+          "duration" : 2379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "320c17165107bfee5371a4a1ec373251"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
