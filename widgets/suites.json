@@ -1,6 +1,17 @@
 {
-  "total" : 13,
+  "total" : 14,
   "items" : [ {
+    "uid" : "3186294c83e6bc0b320bee153a015dac",
+    "name" : "Refund Purchase Negative Validation",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
     "uid" : "d792a114b27ad1a35598835d09657265",
     "name" : "Refund Authorization",
     "statistic" : {
@@ -12,15 +23,15 @@
       "total" : 2
     }
   }, {
-    "uid" : "14f149c567f7f0f70c311ff990416ea4",
-    "name" : "Last Call",
+    "uid" : "66e2db134d8876cab04a7fff59812874",
+    "name" : "Transactions for EU",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 2
+      "total" : 12
     }
   }, {
     "uid" : "d4e14d46241aadd7d1410d783a6fe2e5",
@@ -32,17 +43,6 @@
       "passed" : 10,
       "unknown" : 0,
       "total" : 10
-    }
-  }, {
-    "uid" : "3186294c83e6bc0b320bee153a015dac",
-    "name" : "Refund Purchase Negative Validation",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 6,
-      "unknown" : 0,
-      "total" : 6
     }
   }, {
     "uid" : "3998bbc186dd4f3143009135801ff5d0",

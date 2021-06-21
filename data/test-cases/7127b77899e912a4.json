@@ -1,0 +1,88 @@
+{
+  "uid" : "7127b77899e912a4",
+  "name" : "Last Call",
+  "historyId" : "37fb8738a0bfb8eeb9d13e644522aed6",
+  "time" : {
+    "start" : 1624260042825,
+    "stop" : 1624260045186,
+    "duration" : 2361
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/last-call </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  {\r\n \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n \"reference\": \"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\"\r\n } </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":[{\"id\":\"017a2d71-4e49-1d13-e1da-4b2aead9b21a\",\"type\":\"REQUEST\",\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"createdTime\":\"2021-06-21T07:20:38Z\",\"transcationType\":\"AUTHORIZATION\",\"clientId\":\"9aae0c9e-1941-49e4-80fd-fecc0d79c234\",\"programId\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchantId\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"transactionId\":\"017a2d71-5b41-0744-6d86-34f5c51c58aa\",\"body\":{\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"terminal_id\":null,\"currency_code\":\"USD\",\"type\":\"AUTHORIZATION\",\"amount\":15.5,\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"stored_payment_instrument\":null,\"payment_instrument\":{\"holder_name\":\"Nathan Spinka II TEST\",\"number\":\"*****\",\"expiration_date\":\"2022-04\",\"security_code\":\"123\",\"billing\":{\"address\":{\"country_code\":\"USA\",\"country_subdivision_code\":\"USA-TN\",\"city\":\"Chattanooga\",\"postal_code\":\"37402\",\"line1\":\"1234 East Main Street\",\"line2\":\"Suite 1000\",\"county\":null,\"street_name\":null,\"street_type\":null,\"building_name\":null,\"building_number\":null,\"unit_number\":null}},\"association_name\":null}},\"error\":null},{\"id\":\"017a2d71-4e49-1d13-e1da-4b2aead9b21a\",\"type\":\"RESPONSE\",\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"createdTime\":\"2021-06-21T07:20:41Z\",\"transcationType\":\"AUTHORIZATION\",\"clientId\":\"9aae0c9e-1941-49e4-80fd-fecc0d79c234\",\"programId\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchantId\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"transactionId\":\"017a2d71-5b41-0744-6d86-34f5c51c58aa\",\"body\":{\"id\":\"017a2d71-5b41-0744-6d86-34f5c51c58aa\",\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"terminal_id\":null,\"currency_code\":\"USD\",\"amount\":15.5,\"type\":\"AUTHORIZATION\",\"status\":\"APPROVED\",\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"payment_instrument_id\":\"017a2d71-508d-8a1e-b5ef-7152e58e4133\",\"originaltransaction_id\":null,\"auth_id\":\"OK474C\",\"fd_merchant_id\":\"RCTST1000084652\",\"bank_net_data\":null,\"fd_terminal_id\":\"00000001\",\"created_at\":\"2021-06-21T07:20:38Z\",\"status_code\":null,\"status_desc\":null,\"avs_result_code\":null,\"ccv_result_code\":null,\"response_date\":null,\"addtl_resp_data\":\"APPROVAL\",\"sttlm_date\":null,\"ath_ntwk_id\":\"02\",\"ath_ntwk_nm\":\"VISA\",\"rt_ind\":null,\"sig_ind\":null,\"error_data\":null,\"debit_trace_num\":null,\"ath_ntwk_trc_id\":null,\"settlement_txn_type\":null,\"print_data\":null,\"assoc_resp_code\":null},\"error\":null}]} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/last-call </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  {\r\n \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n \"reference\": \"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\"\r\n } </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":[{\"id\":\"017a2d71-4e49-1d13-e1da-4b2aead9b21a\",\"type\":\"REQUEST\",\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"createdTime\":\"2021-06-21T07:20:38Z\",\"transcationType\":\"AUTHORIZATION\",\"clientId\":\"9aae0c9e-1941-49e4-80fd-fecc0d79c234\",\"programId\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchantId\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"transactionId\":\"017a2d71-5b41-0744-6d86-34f5c51c58aa\",\"body\":{\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"terminal_id\":null,\"currency_code\":\"USD\",\"type\":\"AUTHORIZATION\",\"amount\":15.5,\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"stored_payment_instrument\":null,\"payment_instrument\":{\"holder_name\":\"Nathan Spinka II TEST\",\"number\":\"*****\",\"expiration_date\":\"2022-04\",\"security_code\":\"123\",\"billing\":{\"address\":{\"country_code\":\"USA\",\"country_subdivision_code\":\"USA-TN\",\"city\":\"Chattanooga\",\"postal_code\":\"37402\",\"line1\":\"1234 East Main Street\",\"line2\":\"Suite 1000\",\"county\":null,\"street_name\":null,\"street_type\":null,\"building_name\":null,\"building_number\":null,\"unit_number\":null}},\"association_name\":null}},\"error\":null},{\"id\":\"017a2d71-4e49-1d13-e1da-4b2aead9b21a\",\"type\":\"RESPONSE\",\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"createdTime\":\"2021-06-21T07:20:41Z\",\"transcationType\":\"AUTHORIZATION\",\"clientId\":\"9aae0c9e-1941-49e4-80fd-fecc0d79c234\",\"programId\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchantId\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"transactionId\":\"017a2d71-5b41-0744-6d86-34f5c51c58aa\",\"body\":{\"id\":\"017a2d71-5b41-0744-6d86-34f5c51c58aa\",\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"terminal_id\":null,\"currency_code\":\"USD\",\"amount\":15.5,\"type\":\"AUTHORIZATION\",\"status\":\"APPROVED\",\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"payment_instrument_id\":\"017a2d71-508d-8a1e-b5ef-7152e58e4133\",\"originaltransaction_id\":null,\"auth_id\":\"OK474C\",\"fd_merchant_id\":\"RCTST1000084652\",\"bank_net_data\":null,\"fd_terminal_id\":\"00000001\",\"created_at\":\"2021-06-21T07:20:38Z\",\"status_code\":null,\"status_desc\":null,\"avs_result_code\":null,\"ccv_result_code\":null,\"response_date\":null,\"addtl_resp_data\":\"APPROVAL\",\"sttlm_date\":null,\"ath_ntwk_id\":\"02\",\"ath_ntwk_nm\":\"VISA\",\"rt_ind\":null,\"sig_ind\":null,\"error_data\":null,\"debit_trace_num\":null,\"ath_ntwk_trc_id\":null,\"settlement_txn_type\":null,\"print_data\":null,\"assoc_resp_code\":null},\"error\":null}]} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 200",
+      "time" : {
+        "start" : 1624260045178,
+        "stop" : 1624260045178,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Id should match original transaction id",
+      "time" : {
+        "start" : 1624260045179,
+        "stop" : 1624260045179,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "fb76fd3098c0c763",
+      "name" : "pre_request",
+      "source" : "fb76fd3098c0c763.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Last Call"
+  }, {
+    "name" : "feature",
+    "value" : "Last Call"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/last-call"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7127b77899e912a4.json",
+  "parameterValues" : [ ]
+}

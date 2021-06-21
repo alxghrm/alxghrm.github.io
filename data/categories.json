@@ -6,37 +6,33 @@
     "children" : [ {
       "name" : "Status code should be 400",
       "children" : [ {
-        "name" : "Refund Transaction",
-        "uid" : "28c5c296ec021ff1",
+        "name" : "Purchase Transaction Non Existent Payment Account",
+        "uid" : "607b25a5d0312e5a",
         "parentUid" : "4e58d5653d15d65cde2838377da8696e",
         "status" : "failed",
         "time" : {
-          "start" : 1623403750322,
-          "stop" : 1623403755282,
-          "duration" : 4960
+          "start" : 1624259981377,
+          "stop" : 1624259983743,
+          "duration" : 2366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Refund Transaction",
+        "uid" : "3eee38ed342a2054",
+        "parentUid" : "4e58d5653d15d65cde2838377da8696e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624260024470,
+          "stop" : 1624260029244,
+          "duration" : 4774
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "4e58d5653d15d65cde2838377da8696e"
-    }, {
-      "name" : "Id should match original transaction id",
-      "children" : [ {
-        "name" : "Last Call",
-        "uid" : "3330aaae3e77b110",
-        "parentUid" : "320c17165107bfee5371a4a1ec373251",
-        "status" : "failed",
-        "time" : {
-          "start" : 1623403767999,
-          "stop" : 1623403770378,
-          "duration" : 2379
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "320c17165107bfee5371a4a1ec373251"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

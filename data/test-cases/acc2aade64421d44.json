@@ -1,0 +1,73 @@
+{
+  "uid" : "acc2aade64421d44",
+  "name" : "Purchase Transaction Missing Security Code",
+  "historyId" : "daa68641447be1553cc12d48f4b8b676",
+  "time" : {
+    "start" : 1624259988922,
+    "stop" : 1624259991172,
+    "duration" : 2250
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/process </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n    \"merchant_id\": \"016fd8c3-f677-a782-122d-2b55e30c93ce\",\r\n    \"type\": \"PURCHASE\",\r\n    \"amount\": 12.5,\r\n    \"currency_code\": \"USD\",\r\n    \"reference\": \"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\r\n    \"stored_payment_instrument\": {\r\n        \"id\": \"0178354e-d0de-ac1a-98bb-5ed2130cb03d\"\r\n    },\r\n    \"payment_instrument\": null\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"BAD_REQUEST\",\"message\":\"Missing parameter in your request, check request body. Detail : missing stored_payment_instrument field\",\"errors\":null}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/process </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n    \"merchant_id\": \"016fd8c3-f677-a782-122d-2b55e30c93ce\",\r\n    \"type\": \"PURCHASE\",\r\n    \"amount\": 12.5,\r\n    \"currency_code\": \"USD\",\r\n    \"reference\": \"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\r\n    \"stored_payment_instrument\": {\r\n        \"id\": \"0178354e-d0de-ac1a-98bb-5ed2130cb03d\"\r\n    },\r\n    \"payment_instrument\": null\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"BAD_REQUEST\",\"message\":\"Missing parameter in your request, check request body. Detail : missing stored_payment_instrument field\",\"errors\":null}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 400",
+      "time" : {
+        "start" : 1624259991167,
+        "stop" : 1624259991167,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "3e2535635daf5680",
+      "name" : "pre_request",
+      "source" : "3e2535635daf5680.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Refund Purchase Negative Validation"
+  }, {
+    "name" : "feature",
+    "value" : "Refund Purchase Negative Validation"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "acc2aade64421d44.json",
+  "parameterValues" : [ ]
+}
