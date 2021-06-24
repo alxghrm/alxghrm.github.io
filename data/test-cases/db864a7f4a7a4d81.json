@@ -1,0 +1,73 @@
+{
+  "uid" : "db864a7f4a7a4d81",
+  "name" : "Authorization Transaction",
+  "historyId" : "444401defabb8d37c94d400c9a292fb7",
+  "time" : {
+    "start" : 1624533974783,
+    "stop" : 1624533979690,
+    "duration" : 4907
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/process </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"merchant_id\": \"016fd8c3-f677-a782-122d-2b55e30c93ce\",\r\n  \"type\": \"AUTHORIZATION\",\r\n  \"amount\": 12.5,\r\n  \"currency_code\": \"USD\",\r\n  \"reference\": \"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\r\n  \"stored_payment_instrument\": null,\r\n  \"payment_instrument\": {\r\n    \"holder_name\": \"Veronica Blanda TEST\",\r\n    \"number\": \"6011208701112222\",\r\n    \"expiration_date\": \"2022-04\",\r\n    \"security_code\": \"123\",\r\n    \"billing\": {\r\n      \"address\": {\r\n        \"country_code\": \"USA\",\r\n        \"country_subdivision_code\": \"USA-TN\",\r\n        \"city\": \"Chattanooga\",\r\n        \"postal_code\": \"37402\",\r\n        \"line1\": \"1234 East Main Street\",\r\n        \"line2\": \"Suite 1000\"\r\n      }\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":{\"id\":\"017a3dc5-4948-44c3-4f81-2895ae22aae8\",\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"terminal_id\":null,\"currency_code\":\"USD\",\"amount\":12.50,\"type\":\"AUTHORIZATION\",\"status\":\"APPROVED\",\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"payment_instrument_id\":\"017a3dc5-48a8-1e6b-40cc-2b01248f8ce7\",\"originaltransaction_id\":null,\"auth_id\":\"OK6675\",\"fd_merchant_id\":\"RCTST1000084652\",\"bank_net_data\":null,\"fd_terminal_id\":\"00000001\",\"created_at\":\"2021-06-24T11:26:17Z\",\"status_code\":null,\"status_desc\":null,\"avs_result_code\":null,\"ccv_result_code\":null,\"response_date\":null,\"addtl_resp_data\":\"APPROVAL\",\"sttlm_date\":null,\"ath_ntwk_id\":\"04\",\"ath_ntwk_nm\":\"DISCOVER\",\"rt_ind\":null,\"sig_ind\":null,\"error_data\":null,\"debit_trace_num\":null,\"ath_ntwk_trc_id\":null,\"settlement_txn_type\":null,\"print_data\":null,\"assoc_resp_code\":null}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/process </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"merchant_id\": \"016fd8c3-f677-a782-122d-2b55e30c93ce\",\r\n  \"type\": \"AUTHORIZATION\",\r\n  \"amount\": 12.5,\r\n  \"currency_code\": \"USD\",\r\n  \"reference\": \"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\r\n  \"stored_payment_instrument\": null,\r\n  \"payment_instrument\": {\r\n    \"holder_name\": \"Veronica Blanda TEST\",\r\n    \"number\": \"6011208701112222\",\r\n    \"expiration_date\": \"2022-04\",\r\n    \"security_code\": \"123\",\r\n    \"billing\": {\r\n      \"address\": {\r\n        \"country_code\": \"USA\",\r\n        \"country_subdivision_code\": \"USA-TN\",\r\n        \"city\": \"Chattanooga\",\r\n        \"postal_code\": \"37402\",\r\n        \"line1\": \"1234 East Main Street\",\r\n        \"line2\": \"Suite 1000\"\r\n      }\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":{\"id\":\"017a3dc5-4948-44c3-4f81-2895ae22aae8\",\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"terminal_id\":null,\"currency_code\":\"USD\",\"amount\":12.50,\"type\":\"AUTHORIZATION\",\"status\":\"APPROVED\",\"reference\":\"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\"payment_instrument_id\":\"017a3dc5-48a8-1e6b-40cc-2b01248f8ce7\",\"originaltransaction_id\":null,\"auth_id\":\"OK6675\",\"fd_merchant_id\":\"RCTST1000084652\",\"bank_net_data\":null,\"fd_terminal_id\":\"00000001\",\"created_at\":\"2021-06-24T11:26:17Z\",\"status_code\":null,\"status_desc\":null,\"avs_result_code\":null,\"ccv_result_code\":null,\"response_date\":null,\"addtl_resp_data\":\"APPROVAL\",\"sttlm_date\":null,\"ath_ntwk_id\":\"04\",\"ath_ntwk_nm\":\"DISCOVER\",\"rt_ind\":null,\"sig_ind\":null,\"error_data\":null,\"debit_trace_num\":null,\"ath_ntwk_trc_id\":null,\"settlement_txn_type\":null,\"print_data\":null,\"assoc_resp_code\":null}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 200",
+      "time" : {
+        "start" : 1624533979683,
+        "stop" : 1624533979683,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3a6d59e6b41c663b",
+      "name" : "pre_request",
+      "source" : "3a6d59e6b41c663b.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Capture Transaction Negative Validation"
+  }, {
+    "name" : "feature",
+    "value" : "Capture Transaction Negative Validation"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db864a7f4a7a4d81.json",
+  "parameterValues" : [ ]
+}

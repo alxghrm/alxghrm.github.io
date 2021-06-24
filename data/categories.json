@@ -6,27 +6,14 @@
     "children" : [ {
       "name" : "Status code should be 400",
       "children" : [ {
-        "name" : "Purchase Transaction Non Existent Payment Account",
-        "uid" : "607b25a5d0312e5a",
-        "parentUid" : "4e58d5653d15d65cde2838377da8696e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1624259981377,
-          "stop" : 1624259983743,
-          "duration" : 2366
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Refund Transaction",
-        "uid" : "3eee38ed342a2054",
+        "uid" : "eb2bc68233ce6d50",
         "parentUid" : "4e58d5653d15d65cde2838377da8696e",
         "status" : "failed",
         "time" : {
-          "start" : 1624260024470,
-          "stop" : 1624260029244,
-          "duration" : 4774
+          "start" : 1624534065794,
+          "stop" : 1624534070313,
+          "duration" : 4519
         },
         "flaky" : false,
         "newFailed" : false,
