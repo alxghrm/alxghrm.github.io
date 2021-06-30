@@ -7,13 +7,13 @@
       "name" : "Status code should be 400",
       "children" : [ {
         "name" : "Refund Transaction",
-        "uid" : "eb2bc68233ce6d50",
+        "uid" : "afe9c673166bf269",
         "parentUid" : "4e58d5653d15d65cde2838377da8696e",
         "status" : "failed",
         "time" : {
-          "start" : 1624534065794,
-          "stop" : 1624534070313,
-          "duration" : 4519
+          "start" : 1625042970443,
+          "stop" : 1625042975895,
+          "duration" : 5452
         },
         "flaky" : false,
         "newFailed" : false,
