@@ -1,0 +1,79 @@
+{
+  "uid" : "ea3568ee39877dfe",
+  "name" : "Capture Transaction",
+  "historyId" : "c30e363e9a901056070a529dfac77703",
+  "time" : {
+    "start" : 1625813153522,
+    "stop" : 1625813156929,
+    "duration" : 3407
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/capture </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"type\": \"CAPTURE\",\r\n  \"originaltransaction_id\": \"017a8a03-ec38-6dcf-4924-65ea7150c419\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":{\"id\":\"017a8a03-ffc2-b8c0-1f5d-ecace27dc868\",\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"ac82f3b9-db71-43f8-8633-bea6868f52e8\",\"terminal_id\":null,\"currency_code\":\"EUR\",\"amount\":37.80,\"type\":\"CAPTURE\",\"status\":\"APPROVED\",\"reference\":null,\"payment_instrument_id\":\"017a8a03-eb9b-6cfc-0095-be4f810f11b4\",\"originaltransaction_id\":\"017a8a03-ec38-6dcf-4924-65ea7150c419\",\"auth_id\":\"OK152C\",\"fd_merchant_id\":\"RCTST1000084652\",\"bank_net_data\":null,\"fd_terminal_id\":\"00000001\",\"created_at\":\"2021-07-09T06:45:55Z\",\"status_code\":null,\"status_desc\":null,\"avs_result_code\":null,\"ccv_result_code\":null,\"response_date\":null,\"addtl_resp_data\":\"APPROVAL\",\"sttlm_date\":null,\"ath_ntwk_id\":null,\"ath_ntwk_nm\":null,\"rt_ind\":null,\"sig_ind\":null,\"error_data\":null,\"debit_trace_num\":null,\"ath_ntwk_trc_id\":null,\"settlement_txn_type\":null,\"print_data\":null,\"assoc_resp_code\":null}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/capture </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"type\": \"CAPTURE\",\r\n  \"originaltransaction_id\": \"017a8a03-ec38-6dcf-4924-65ea7150c419\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":{\"id\":\"017a8a03-ffc2-b8c0-1f5d-ecace27dc868\",\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"ac82f3b9-db71-43f8-8633-bea6868f52e8\",\"terminal_id\":null,\"currency_code\":\"EUR\",\"amount\":37.80,\"type\":\"CAPTURE\",\"status\":\"APPROVED\",\"reference\":null,\"payment_instrument_id\":\"017a8a03-eb9b-6cfc-0095-be4f810f11b4\",\"originaltransaction_id\":\"017a8a03-ec38-6dcf-4924-65ea7150c419\",\"auth_id\":\"OK152C\",\"fd_merchant_id\":\"RCTST1000084652\",\"bank_net_data\":null,\"fd_terminal_id\":\"00000001\",\"created_at\":\"2021-07-09T06:45:55Z\",\"status_code\":null,\"status_desc\":null,\"avs_result_code\":null,\"ccv_result_code\":null,\"response_date\":null,\"addtl_resp_data\":\"APPROVAL\",\"sttlm_date\":null,\"ath_ntwk_id\":null,\"ath_ntwk_nm\":null,\"rt_ind\":null,\"sig_ind\":null,\"error_data\":null,\"debit_trace_num\":null,\"ath_ntwk_trc_id\":null,\"settlement_txn_type\":null,\"print_data\":null,\"assoc_resp_code\":null}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 200",
+      "time" : {
+        "start" : 1625813156921,
+        "stop" : 1625813156921,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e45b93f66096df95",
+      "name" : "pre_request",
+      "source" : "e45b93f66096df95.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Transactions for EU"
+  }, {
+    "name" : "feature",
+    "value" : "Transactions for EU"
+  }, {
+    "name" : "suite",
+    "value" : "Visa"
+  }, {
+    "name" : "subSuite",
+    "value" : "Authorization Capture EU"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/capture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea3568ee39877dfe.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "32c505f3894bb119",
+  "name" : "Reverse Transaction Invalid Merchant Id",
+  "historyId" : "5f2efb7e291c4ed6b6c02b7e75316b46",
+  "time" : {
+    "start" : 1625813126942,
+    "stop" : 1625813129320,
+    "duration" : 2378
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/reverse </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n    \"merchant_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n    \"type\": \"REVERSAL\",\r\n    \"originaltransaction_id\": \"017a8a03-7ceb-f39e-fc55-80f773dc9a9e\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"MERCHANT_NOT_FOUND\",\"message\":\"MERCHANT_NOT_FOUND\",\"errors\":null}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/reverse </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n    \"merchant_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n    \"type\": \"REVERSAL\",\r\n    \"originaltransaction_id\": \"017a8a03-7ceb-f39e-fc55-80f773dc9a9e\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"MERCHANT_NOT_FOUND\",\"message\":\"MERCHANT_NOT_FOUND\",\"errors\":null}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 400",
+      "time" : {
+        "start" : 1625813129312,
+        "stop" : 1625813129312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8fee83287d5914aa",
+      "name" : "pre_request",
+      "source" : "8fee83287d5914aa.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Reverse Authorization Negative Validation"
+  }, {
+    "name" : "feature",
+    "value" : "Reverse Authorization Negative Validation"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/reverse"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32c505f3894bb119.json",
+  "parameterValues" : [ ]
+}

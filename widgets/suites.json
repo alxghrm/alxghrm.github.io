@@ -1,5 +1,5 @@
 {
-  "total" : 14,
+  "total" : 16,
   "items" : [ {
     "uid" : "d792a114b27ad1a35598835d09657265",
     "name" : "Refund Authorization",
@@ -56,6 +56,17 @@
       "total" : 4
     }
   }, {
+    "uid" : "aa583bad949d034cbd58635c5cbceebc",
+    "name" : "Partial Refund Purchase",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
     "uid" : "e9391c35bde427a6b76a174fb09345d6",
     "name" : "Void Authorization Negative Validation",
     "statistic" : {
@@ -78,8 +89,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "d5e698d40a47202722990a9b1b599179",
-    "name" : "Refund Purchase",
+    "uid" : "ac32c49b2bf27b20712618b03c5cb300",
+    "name" : "Authorization Capture Refund",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -89,8 +100,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "aa583bad949d034cbd58635c5cbceebc",
-    "name" : "Partial Refund Purchase",
+    "uid" : "0042c94353394a413b31afc59e42bebc",
+    "name" : "Reverse Authorization Negative Validation",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -98,17 +109,6 @@
       "passed" : 3,
       "unknown" : 0,
       "total" : 3
-    }
-  }, {
-    "uid" : "f6fbf7cc8354b654fbccfd6cd52a2ff0",
-    "name" : "Get Payment Instrument",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
     }
   } ]
 }

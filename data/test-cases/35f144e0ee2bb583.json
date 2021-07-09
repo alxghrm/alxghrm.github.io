@@ -1,0 +1,73 @@
+{
+  "uid" : "35f144e0ee2bb583",
+  "name" : "Partial Refund Transaction 3",
+  "historyId" : "77c1f5eb99bf7a4041b83f565a8cc091",
+  "time" : {
+    "start" : 1625813223767,
+    "stop" : 1625813226191,
+    "duration" : 2424
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/refund </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"type\": \"REFUND\",\r\n  \"amount\": \"5\",\r\n  \"originaltransaction_id\": \"017a8a04-db7c-20aa-edab-b8e0dde527ea\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"REFUND_AMOUNT_EXCEEDED\",\"message\":\"REFUND_AMOUNT_EXCEEDED\",\"errors\":null}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/refund </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"type\": \"REFUND\",\r\n  \"amount\": \"5\",\r\n  \"originaltransaction_id\": \"017a8a04-db7c-20aa-edab-b8e0dde527ea\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"REFUND_AMOUNT_EXCEEDED\",\"message\":\"REFUND_AMOUNT_EXCEEDED\",\"errors\":null}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 400",
+      "time" : {
+        "start" : 1625813226183,
+        "stop" : 1625813226183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d99978a110acc67d",
+      "name" : "pre_request",
+      "source" : "d99978a110acc67d.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Partial Refund Purchase"
+  }, {
+    "name" : "feature",
+    "value" : "Partial Refund Purchase"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/refund"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35f144e0ee2bb583.json",
+  "parameterValues" : [ ]
+}

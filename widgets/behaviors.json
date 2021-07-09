@@ -1,5 +1,5 @@
 {
-  "total" : 14,
+  "total" : 16,
   "items" : [ {
     "uid" : "031bb011fe9ad7b9d21761a985ea0c2e",
     "name" : "Refund Authorization",
@@ -23,6 +23,17 @@
       "total" : 4
     }
   }, {
+    "uid" : "2ec1e2b2af5b2bd3d837192e64e2ee99",
+    "name" : "Authorization Capture Refund",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
     "uid" : "608e50b6aa007e40fa2bf252e9c74706",
     "name" : "Get Payment Instrument",
     "statistic" : {
@@ -34,8 +45,19 @@
       "total" : 2
     }
   }, {
-    "uid" : "a2d088d9d02b1104b39709cadc16963d",
-    "name" : "Capture Authorization",
+    "uid" : "84bf82f77de031bddfcdb2955cf234b1",
+    "name" : "Reverse Authorization",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "fdb6de1ff74540b3d7583b23e4ef13b7",
+    "name" : "Reverse Authorization Negative Validation",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -80,28 +102,6 @@
   }, {
     "uid" : "ffc3366870610e439069360e9f2f0d3e",
     "name" : "Refund Purchase Negative Validation",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "bb14d8efe949086cff71edc6d970fef4",
-    "name" : "Void Authorization",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "6693e6e9e25caf241114b567b5d78ec2",
-    "name" : "Void Authorization Negative Validation",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

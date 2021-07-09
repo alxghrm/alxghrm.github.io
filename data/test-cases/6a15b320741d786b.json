@@ -1,0 +1,73 @@
+{
+  "uid" : "6a15b320741d786b",
+  "name" : "Create Payment Instrument Postal Code Special Character",
+  "historyId" : "7b8bee28f561ee35b864dbf86d8fc00b",
+  "time" : {
+    "start" : 1625813081715,
+    "stop" : 1625813084097,
+    "duration" : 2382
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/payment_instruments/create </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"type\": \"CARD\",\r\n  \"association_name\": \"Visa\",\r\n  \"holder_name\": \"Lester Predovic\",\r\n  \"number\": \"4264281511112228\",\r\n  \"expiration\": {\r\n    \"month\": \"09\",\r\n    \"year\": \"2025\"\r\n  },\r\n  \"security_code\": \"123\",\r\n  \"billing\": {\r\n    \"address\": {\r\n      \"country_code\": \"US\",\r\n      \"country_subdivision_code\": \"US-NY\",\r\n      \"city\": \"New York\",\r\n      \"postal_code\": \"331-02@!\",\r\n      \"line1\": \"382 NE 191st St\"\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"VALIDATION_FAILED\",\"details\":[{\"field\":\"billing.address.postal_code\",\"code\":\"VALUE_INVALID\",\"arguments\":null,\"developer_message\":\"Only letters, digits, space, hyphen are allowed\"}]}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/payment_instruments/create </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"type\": \"CARD\",\r\n  \"association_name\": \"Visa\",\r\n  \"holder_name\": \"Lester Predovic\",\r\n  \"number\": \"4264281511112228\",\r\n  \"expiration\": {\r\n    \"month\": \"09\",\r\n    \"year\": \"2025\"\r\n  },\r\n  \"security_code\": \"123\",\r\n  \"billing\": {\r\n    \"address\": {\r\n      \"country_code\": \"US\",\r\n      \"country_subdivision_code\": \"US-NY\",\r\n      \"city\": \"New York\",\r\n      \"postal_code\": \"331-02@!\",\r\n      \"line1\": \"382 NE 191st St\"\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"VALIDATION_FAILED\",\"details\":[{\"field\":\"billing.address.postal_code\",\"code\":\"VALUE_INVALID\",\"arguments\":null,\"developer_message\":\"Only letters, digits, space, hyphen are allowed\"}]}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 400",
+      "time" : {
+        "start" : 1625813084090,
+        "stop" : 1625813084090,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1b4954bd89a6ec4b",
+      "name" : "pre_request",
+      "source" : "1b4954bd89a6ec4b.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Create Payment Instrument Negative Validation"
+  }, {
+    "name" : "feature",
+    "value" : "Create Payment Instrument Negative Validation"
+  }, {
+    "name" : "story",
+    "value" : "payment_instruments/create"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a15b320741d786b.json",
+  "parameterValues" : [ ]
+}

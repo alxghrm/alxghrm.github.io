@@ -1,0 +1,73 @@
+{
+  "uid" : "bbe24547652174bf",
+  "name" : "Create Payment Instrument",
+  "historyId" : "6b4fdb5d2141a1a6305e977e5f1d40a8",
+  "time" : {
+    "start" : 1625813060539,
+    "stop" : 1625813064369,
+    "duration" : 3830
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/payment_instruments/create </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"type\": \"CARD\",\r\n  \"association_name\": \"Visa\",\r\n  \"holder_name\": \"Agnes Friesen IV TEST\",\r\n  \"number\": \"4264281511112228\",\r\n  \"expiration\": {\r\n    \"month\": \"09\",\r\n    \"year\": \"2025\"\r\n  },\r\n  \"security_code\": \"123\",\r\n  \"billing\": {\r\n    \"address\": {\r\n      \"country_code\": \"US\",\r\n      \"country_subdivision_code\": \"US-NY\",\r\n      \"city\": \"New York\",\r\n      \"postal_code\": \"33102\",\r\n      \"line1\": \"382 NE 191st St\"\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":{\"id\":\"017a8a02-996d-ee11-f610-94e31ce63b01\",\"type\":\"CARD\",\"holder_name\":\"Agnes Friesen IV TEST\",\"number_last4\":\"2228\",\"expiration\":{\"year\":\"2025\",\"month\":\"09\"},\"billing\":{\"address\":{\"country_code\":\"US\",\"country_subdivision_code\":\"US-NY\",\"city\":\"New York\",\"postal_code\":\"33102\",\"line1\":\"382 NE 191st St\",\"line2\":null}},\"association_name\":\"Visa\"}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/payment_instruments/create </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"type\": \"CARD\",\r\n  \"association_name\": \"Visa\",\r\n  \"holder_name\": \"Agnes Friesen IV TEST\",\r\n  \"number\": \"4264281511112228\",\r\n  \"expiration\": {\r\n    \"month\": \"09\",\r\n    \"year\": \"2025\"\r\n  },\r\n  \"security_code\": \"123\",\r\n  \"billing\": {\r\n    \"address\": {\r\n      \"country_code\": \"US\",\r\n      \"country_subdivision_code\": \"US-NY\",\r\n      \"city\": \"New York\",\r\n      \"postal_code\": \"33102\",\r\n      \"line1\": \"382 NE 191st St\"\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":{\"id\":\"017a8a02-996d-ee11-f610-94e31ce63b01\",\"type\":\"CARD\",\"holder_name\":\"Agnes Friesen IV TEST\",\"number_last4\":\"2228\",\"expiration\":{\"year\":\"2025\",\"month\":\"09\"},\"billing\":{\"address\":{\"country_code\":\"US\",\"country_subdivision_code\":\"US-NY\",\"city\":\"New York\",\"postal_code\":\"33102\",\"line1\":\"382 NE 191st St\",\"line2\":null}},\"association_name\":\"Visa\"}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 200",
+      "time" : {
+        "start" : 1625813064358,
+        "stop" : 1625813064358,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "83c03c39e84f083f",
+      "name" : "pre_request",
+      "source" : "83c03c39e84f083f.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Get Payment Instrument"
+  }, {
+    "name" : "feature",
+    "value" : "Get Payment Instrument"
+  }, {
+    "name" : "story",
+    "value" : "payment_instruments/create"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bbe24547652174bf.json",
+  "parameterValues" : [ ]
+}

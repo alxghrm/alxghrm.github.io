@@ -1,0 +1,73 @@
+{
+  "uid" : "8cd52439b7832d79",
+  "name" : "Partial Refund Transaction 1",
+  "historyId" : "52b825ecc6ddb96290b9152c79d2aa00",
+  "time" : {
+    "start" : 1625813214429,
+    "stop" : 1625813219031,
+    "duration" : 4602
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/refund </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"type\": \"REFUND\",\r\n  \"amount\": \"5.5\",\r\n  \"originaltransaction_id\": \"017a8a04-db7c-20aa-edab-b8e0dde527ea\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":{\"id\":\"017a8a04-ed9d-2dee-bf4e-b7e7f118612d\",\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"terminal_id\":null,\"currency_code\":\"USD\",\"amount\":5.50,\"type\":\"REFUND\",\"status\":\"APPROVED\",\"reference\":\"da040abf-314c-41fd-b556-PURCHASETEST\",\"payment_instrument_id\":\"017a8a04-dae1-0526-4f14-9d958e7cf181\",\"originaltransaction_id\":\"017a8a04-db7c-20aa-edab-b8e0dde527ea\",\"auth_id\":\"OK2034\",\"fd_merchant_id\":\"RCTST1000084652\",\"bank_net_data\":null,\"fd_terminal_id\":\"00000001\",\"created_at\":\"2021-07-09T06:46:56Z\",\"status_code\":null,\"status_desc\":null,\"avs_result_code\":null,\"ccv_result_code\":null,\"response_date\":null,\"addtl_resp_data\":\"APPROVAL\",\"sttlm_date\":null,\"ath_ntwk_id\":\"04\",\"ath_ntwk_nm\":\"DISCOVER\",\"rt_ind\":null,\"sig_ind\":null,\"error_data\":null,\"debit_trace_num\":null,\"ath_ntwk_trc_id\":null,\"settlement_txn_type\":null,\"print_data\":null,\"assoc_resp_code\":null}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/refund </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"type\": \"REFUND\",\r\n  \"amount\": \"5.5\",\r\n  \"originaltransaction_id\": \"017a8a04-db7c-20aa-edab-b8e0dde527ea\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"data\":{\"id\":\"017a8a04-ed9d-2dee-bf4e-b7e7f118612d\",\"program_id\":\"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\"merchant_id\":\"016fd8c3-f677-a782-122d-2b55e30c93ce\",\"terminal_id\":null,\"currency_code\":\"USD\",\"amount\":5.50,\"type\":\"REFUND\",\"status\":\"APPROVED\",\"reference\":\"da040abf-314c-41fd-b556-PURCHASETEST\",\"payment_instrument_id\":\"017a8a04-dae1-0526-4f14-9d958e7cf181\",\"originaltransaction_id\":\"017a8a04-db7c-20aa-edab-b8e0dde527ea\",\"auth_id\":\"OK2034\",\"fd_merchant_id\":\"RCTST1000084652\",\"bank_net_data\":null,\"fd_terminal_id\":\"00000001\",\"created_at\":\"2021-07-09T06:46:56Z\",\"status_code\":null,\"status_desc\":null,\"avs_result_code\":null,\"ccv_result_code\":null,\"response_date\":null,\"addtl_resp_data\":\"APPROVAL\",\"sttlm_date\":null,\"ath_ntwk_id\":\"04\",\"ath_ntwk_nm\":\"DISCOVER\",\"rt_ind\":null,\"sig_ind\":null,\"error_data\":null,\"debit_trace_num\":null,\"ath_ntwk_trc_id\":null,\"settlement_txn_type\":null,\"print_data\":null,\"assoc_resp_code\":null}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 200",
+      "time" : {
+        "start" : 1625813219024,
+        "stop" : 1625813219024,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8bbf4402df8e54b9",
+      "name" : "pre_request",
+      "source" : "8bbf4402df8e54b9.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Partial Refund Purchase"
+  }, {
+    "name" : "feature",
+    "value" : "Partial Refund Purchase"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/refund"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8cd52439b7832d79.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "bd915376b9d4665",
+  "name" : "Authorization Transaction Expired Payment Instrument",
+  "historyId" : "342771897e7eb8b6dab5a685d5fa47da",
+  "time" : {
+    "start" : 1625813262840,
+    "stop" : 1625813265220,
+    "duration" : 2380
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/process </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"merchant_id\": \"016fd8c3-f677-a782-122d-2b55e30c93ce\",\r\n  \"type\": \"AUTHORIZATION\",\r\n  \"amount\": 12.5,\r\n  \"currency_code\": \"USD\",\r\n  \"reference\": \"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\r\n  \"stored_payment_instrument\": null,\r\n  \"payment_instrument\": {\r\n    \"holder_name\": \"Kerry Waelchi TEST\",\r\n    \"number\": \"6011208701112222\",\r\n    \"expiration_date\": \"2021-04\",\r\n    \"security_code\": \"123\",\r\n    \"billing\": {\r\n      \"address\": {\r\n        \"country_code\": \"USA\",\r\n        \"country_subdivision_code\": \"USA-TN\",\r\n        \"city\": \"Chattanooga\",\r\n        \"postal_code\": \"37402\",\r\n        \"line1\": \"1234 East Main Street\",\r\n        \"line2\": \"Suite 1000\"\r\n      }\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"VALIDATION_FAILED\",\"details\":[{\"field\":\"payment_instrument.expiration_date\",\"code\":\"PAYMENT_INSTRUMENT_EXPIRED\",\"arguments\":null,\"developer_message\":\"Payment instrument is expired.\"}]}} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - https://fargate.test.payall.com/v1/acquiring/process </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n  \"program_id\": \"1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8\",\r\n  \"merchant_id\": \"016fd8c3-f677-a782-122d-2b55e30c93ce\",\r\n  \"type\": \"AUTHORIZATION\",\r\n  \"amount\": 12.5,\r\n  \"currency_code\": \"USD\",\r\n  \"reference\": \"da040abf-314c-41fd-b556-2b1b8a5c9266TEST\",\r\n  \"stored_payment_instrument\": null,\r\n  \"payment_instrument\": {\r\n    \"holder_name\": \"Kerry Waelchi TEST\",\r\n    \"number\": \"6011208701112222\",\r\n    \"expiration_date\": \"2021-04\",\r\n    \"security_code\": \"123\",\r\n    \"billing\": {\r\n      \"address\": {\r\n        \"country_code\": \"USA\",\r\n        \"country_subdivision_code\": \"USA-TN\",\r\n        \"city\": \"Chattanooga\",\r\n        \"postal_code\": \"37402\",\r\n        \"line1\": \"1234 East Main Street\",\r\n        \"line2\": \"Suite 1000\"\r\n      }\r\n    }\r\n  }\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"error\":{\"code\":\"VALIDATION_FAILED\",\"details\":[{\"field\":\"payment_instrument.expiration_date\",\"code\":\"PAYMENT_INSTRUMENT_EXPIRED\",\"arguments\":null,\"developer_message\":\"Payment instrument is expired.\"}]}} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code should be 400",
+      "time" : {
+        "start" : 1625813265214,
+        "stop" : 1625813265214,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "90a5d87f426467aa",
+      "name" : "pre_request",
+      "source" : "90a5d87f426467aa.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Void Authorization Negative Validation"
+  }, {
+    "name" : "feature",
+    "value" : "Void Authorization Negative Validation"
+  }, {
+    "name" : "story",
+    "value" : "acquiring/process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd915376b9d4665.json",
+  "parameterValues" : [ ]
+}
